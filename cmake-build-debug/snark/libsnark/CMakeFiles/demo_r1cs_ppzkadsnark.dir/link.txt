@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/demo_r1cs_ppzkadsnark.dir/zk_proof_systems/ppzkadsnark/r1cs_ppzkadsnark/examples/demo_r1cs_ppzkadsnark.cpp.o  -o demo_r1cs_ppzkadsnark libsnark_adsnark.a libsnark.a -lff -lGMP::gmp /usr/lib/x86_64-linux-gnu/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so -lprocps -lzm -lsnark_supercop ../../crypto/libcrypto.a 

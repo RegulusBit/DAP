@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsecp256k1.a  
+/usr/bin/ranlib libsecp256k1.a

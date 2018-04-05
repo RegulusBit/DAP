@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzcash.a  CMakeFiles/zcash.dir/Address.cpp.o CMakeFiles/zcash.dir/CreateJoinSplit.cpp.o CMakeFiles/zcash.dir/GenerateParams.cpp.o CMakeFiles/zcash.dir/IncrementalMerkleTree.cpp.o CMakeFiles/zcash.dir/JoinSplit.cpp.o CMakeFiles/zcash.dir/Note.cpp.o CMakeFiles/zcash.dir/NoteEncryption.cpp.o CMakeFiles/zcash.dir/Proof.cpp.o CMakeFiles/zcash.dir/prf.cpp.o CMakeFiles/zcash.dir/util.cpp.o
+/usr/bin/ranlib libzcash.a

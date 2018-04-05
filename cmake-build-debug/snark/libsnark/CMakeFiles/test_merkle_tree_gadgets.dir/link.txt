@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o  -o test_merkle_tree_gadgets libsnark.a -lff -lGMP::gmp /usr/lib/x86_64-linux-gnu/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so ../../crypto/libcrypto.a -lprocps -lzm 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o  -o profile_routing_algorithms libsnark.a -lff -lGMP::gmp /usr/lib/x86_64-linux-gnu/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so ../../crypto/libcrypto.a -lprocps -lzm 

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\zcash\;CMake Files\primitives\;CMake Files\script\;CMake Files\crypto\;CMake Files\snark\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dap">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/dap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/script"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 dap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dap/fast">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/dap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/script"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 dap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzcash">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/liblibzcash.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/crypto"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 libzcash"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzcash/fast">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/liblibzcash.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/libsnark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/depends/crypto"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 libzcash/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primitives">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/libprimitives.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 primitives"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primitives/fast">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/libprimitives.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 primitives/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="script">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/script/libscript.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/script"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 script"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="script/fast">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/script/libscript.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/script"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 script/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/script/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/libcrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 crypto"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto/fast">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/libcrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 crypto/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libsnark">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/liblibsnark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/snark"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 libsnark"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libsnark/fast">
+				<Option output="/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/liblibsnark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/conf-bank/DAP/cmake-build-debug/snark"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/conf-bank/DAP/."/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/crypto"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/support"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/primitives"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/script"/>
+					<Add directory="/home/reza/development/conf-bank/DAP/snark/libsnark"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 libsnark/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/reza/development/conf-bank/DAP/amount.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/amount.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/equihash.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/equihash.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/equihash.tcc">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/hmac_sha256.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/hmac_sha256.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/hmac_sha512.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/hmac_sha512.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/ripemd160.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/ripemd160.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/sha1.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/sha1.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/sha256.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/sha256.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/sha512.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/sha512.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/dap.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/hash.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/hash.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/primitives/transaction.cpp">
+			<Option target="primitives"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/primitives/transaction.h">
+			<Option target="primitives"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/pubkey.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/pubkey.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/random.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/random.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/script/script.cpp">
+			<Option target="script"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/script/script.h">
+			<Option target="script"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/serialize.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_g1.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_g1.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_g2.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_g2.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_init.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_init.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_pairing.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_pairing.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/curve_utils.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/curve_utils.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/public_params.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/evaluation_domain/evaluation_domain.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/evaluation_domain/evaluation_domain.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/exponentiation/exponentiation.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/exponentiation/exponentiation.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/bigint.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/bigint.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/field_utils.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/field_utils.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp12_2over3over2.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp12_2over3over2.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp2.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp2.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp6_3over2.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp6_3over2.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/fp_aux.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/scalar_multiplication/kc_multiexp.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/scalar_multiplication/kc_multiexp.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/scalar_multiplication/multiexp.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/scalar_multiplication/multiexp.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/scalar_multiplication/wnaf.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/algebra/scalar_multiplication/wnaf.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/assert_except.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/data_structures/accumulation_vector.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/data_structures/accumulation_vector.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/data_structures/merkle_tree.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/data_structures/merkle_tree.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/data_structures/sparse_vector.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/data_structures/sparse_vector.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/default_types/ec_pp.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/profiling.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/profiling.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/serialization.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/serialization.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/template_utils.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/utils.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/utils.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/common/utils.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/constraint_profiling.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/constraint_profiling.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/examples/simple_example.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/examples/simple_example.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadget.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadget.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/basic_gadgets.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/basic_gadgets.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/gadget_from_r1cs.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/gadget_from_r1cs.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/digest_selector_gadget.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/digest_selector_gadget.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/hash_io.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/hash_io.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_aux.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_aux.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_components.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_components.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_update_gadget.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_update_gadget.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/pb_variable.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/pb_variable.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/protoboard.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/protoboard.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/reductions/r1cs_to_qap/r1cs_to_qap.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/reductions/r1cs_to_qap/r1cs_to_qap.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/arithmetic_programs/qap/qap.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/arithmetic_programs/qap/qap.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/constraint_satisfaction_problems/r1cs/examples/r1cs_examples.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/constraint_satisfaction_problems/r1cs/examples/r1cs_examples.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/variable.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/relations/variable.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/examples/run_r1cs_ppzksnark.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/examples/run_r1cs_ppzksnark.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp">
+			<Option target="libsnark"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/streams.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/sync.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/sync.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/threadsafety.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/tinyformat.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/uint252.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/uint256.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/uint256.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/utilstrencodings.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/utilstrencodings.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/utiltime.cpp">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/utiltime.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/version.h">
+			<Option target="dap"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Address.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Address.hpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/CreateJoinSplit.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/GenerateParams.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/IncrementalMerkleTree.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/IncrementalMerkleTree.hpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/JoinSplit.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/JoinSplit.hpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Note.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Note.hpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/NoteEncryption.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/NoteEncryption.hpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Proof.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Proof.hpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/Zcash.h">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/circuit/commitment.tcc">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/circuit/gadget.tcc">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/circuit/merkle.tcc">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/circuit/note.tcc">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/circuit/prfs.tcc">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/circuit/utils.tcc">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/prf.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/prf.h">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/util.cpp">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/util.h">
+			<Option target="libzcash"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/zcash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zcash\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/primitives/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primitives\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/script/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\script\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crypto\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/conf-bank/DAP/snark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\snark\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcrypto.a  CMakeFiles/crypto.dir/equihash.cpp.o CMakeFiles/crypto.dir/hmac_sha256.cpp.o CMakeFiles/crypto.dir/hmac_sha512.cpp.o CMakeFiles/crypto.dir/ripemd160.cpp.o CMakeFiles/crypto.dir/sha1.cpp.o CMakeFiles/crypto.dir/sha256.cpp.o CMakeFiles/crypto.dir/sha512.cpp.o
+/usr/bin/ranlib libcrypto.a
