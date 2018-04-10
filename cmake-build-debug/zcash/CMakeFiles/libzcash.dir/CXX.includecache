@@ -386,57 +386,17 @@ algebra/curves/curve_utils.tcc
 vector
 -
 
-../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.hpp
-algebra/evaluation_domain/evaluation_domain.hpp
-../snark/libsnark/algebra/evaluation_domain/domains/algebra/evaluation_domain/evaluation_domain.hpp
-algebra/evaluation_domain/domains/basic_radix2_domain.tcc
-../snark/libsnark/algebra/evaluation_domain/domains/algebra/evaluation_domain/domains/basic_radix2_domain.tcc
-
-../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.tcc
-algebra/evaluation_domain/domains/basic_radix2_domain_aux.hpp
-../snark/libsnark/algebra/evaluation_domain/domains/algebra/evaluation_domain/domains/basic_radix2_domain_aux.hpp
-
-../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.hpp
-algebra/evaluation_domain/domains/basic_radix2_domain_aux.tcc
-../snark/libsnark/algebra/evaluation_domain/domains/algebra/evaluation_domain/domains/basic_radix2_domain_aux.tcc
-
-../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.tcc
-cassert
--
-omp.h
--
-algebra/fields/field_utils.hpp
-../snark/libsnark/algebra/evaluation_domain/domains/algebra/fields/field_utils.hpp
-common/profiling.hpp
-../snark/libsnark/algebra/evaluation_domain/domains/common/profiling.hpp
-common/utils.hpp
-../snark/libsnark/algebra/evaluation_domain/domains/common/utils.hpp
-
-../snark/libsnark/algebra/evaluation_domain/evaluation_domain.hpp
-memory
--
-algebra/evaluation_domain/evaluation_domain.tcc
-../snark/libsnark/algebra/evaluation_domain/algebra/evaluation_domain/evaluation_domain.tcc
-
-../snark/libsnark/algebra/evaluation_domain/evaluation_domain.tcc
-cassert
--
-algebra/fields/field_utils.hpp
-../snark/libsnark/algebra/evaluation_domain/algebra/fields/field_utils.hpp
-algebra/evaluation_domain/domains/basic_radix2_domain.hpp
-../snark/libsnark/algebra/evaluation_domain/algebra/evaluation_domain/domains/basic_radix2_domain.hpp
-
 ../snark/libsnark/algebra/exponentiation/exponentiation.hpp
 cstdint
 -
-libsnark/algebra/fields/bigint.hpp
-../snark/libsnark/algebra/exponentiation/libsnark/algebra/fields/bigint.hpp
-libsnark/algebra/exponentiation/exponentiation.tcc
-../snark/libsnark/algebra/exponentiation/libsnark/algebra/exponentiation/exponentiation.tcc
+algebra/fields/bigint.hpp
+../snark/libsnark/algebra/exponentiation/algebra/fields/bigint.hpp
+algebra/exponentiation/exponentiation.tcc
+../snark/libsnark/algebra/exponentiation/algebra/exponentiation/exponentiation.tcc
 
 ../snark/libsnark/algebra/exponentiation/exponentiation.tcc
-libsnark/common/utils.hpp
-../snark/libsnark/algebra/exponentiation/libsnark/common/utils.hpp
+common/utils.hpp
+../snark/libsnark/algebra/exponentiation/common/utils.hpp
 
 ../snark/libsnark/algebra/fields/bigint.hpp
 cstddef
@@ -445,10 +405,10 @@ iostream
 -
 gmp.h
 -
-libsnark/common/serialization.hpp
-../snark/libsnark/algebra/fields/libsnark/common/serialization.hpp
-libsnark/algebra/fields/bigint.tcc
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/bigint.tcc
+common/serialization.hpp
+../snark/libsnark/algebra/fields/common/serialization.hpp
+algebra/fields/bigint.tcc
+../snark/libsnark/algebra/fields/algebra/fields/bigint.tcc
 
 ../snark/libsnark/algebra/fields/bigint.tcc
 cassert
@@ -463,24 +423,24 @@ sodium.h
 ../snark/libsnark/algebra/fields/field_utils.hpp
 cstdint
 -
-libsnark/common/utils.hpp
-../snark/libsnark/algebra/fields/libsnark/common/utils.hpp
-libsnark/algebra/fields/bigint.hpp
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/bigint.hpp
-libsnark/algebra/fields/field_utils.tcc
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/field_utils.tcc
+common/utils.hpp
+../snark/libsnark/algebra/fields/common/utils.hpp
+algebra/fields/bigint.hpp
+../snark/libsnark/algebra/fields/algebra/fields/bigint.hpp
+algebra/fields/field_utils.tcc
+../snark/libsnark/algebra/fields/algebra/fields/field_utils.tcc
 
 ../snark/libsnark/algebra/fields/field_utils.tcc
-libsnark/common/utils.hpp
-../snark/libsnark/algebra/fields/libsnark/common/utils.hpp
+common/utils.hpp
+../snark/libsnark/algebra/fields/common/utils.hpp
 
 ../snark/libsnark/algebra/fields/fp.hpp
-libsnark/algebra/fields/bigint.hpp
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/bigint.hpp
-libsnark/algebra/exponentiation/exponentiation.hpp
-../snark/libsnark/algebra/fields/libsnark/algebra/exponentiation/exponentiation.hpp
-libsnark/algebra/fields/fp.tcc
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/fp.tcc
+algebra/fields/bigint.hpp
+../snark/libsnark/algebra/fields/algebra/fields/bigint.hpp
+algebra/exponentiation/exponentiation.hpp
+../snark/libsnark/algebra/fields/algebra/exponentiation/exponentiation.hpp
+algebra/fields/fp.tcc
+../snark/libsnark/algebra/fields/algebra/fields/fp.tcc
 
 ../snark/libsnark/algebra/fields/fp.tcc
 cassert
@@ -489,12 +449,12 @@ cstdlib
 -
 cmath
 -
-libsnark/algebra/fields/fp_aux.tcc
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/fp_aux.tcc
-libsnark/algebra/fields/field_utils.hpp
-../snark/libsnark/algebra/fields/libsnark/algebra/fields/field_utils.hpp
-libsnark/common/assert_except.hpp
-../snark/libsnark/algebra/fields/libsnark/common/assert_except.hpp
+algebra/fields/fp_aux.tcc
+../snark/libsnark/algebra/fields/algebra/fields/fp_aux.tcc
+algebra/fields/field_utils.hpp
+../snark/libsnark/algebra/fields/algebra/fields/field_utils.hpp
+common/assert_except.hpp
+../snark/libsnark/algebra/fields/common/assert_except.hpp
 
 ../snark/libsnark/algebra/fields/fp12_2over3over2.hpp
 algebra/fields/fp.hpp
@@ -538,59 +498,17 @@ algebra/fields/field_utils.hpp
 
 ../snark/libsnark/algebra/fields/fp_aux.tcc
 
-../snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.hpp
-libsnark/algebra/fields/fp.hpp
-../snark/libsnark/algebra/knowledge_commitment/libsnark/algebra/fields/fp.hpp
-libsnark/common/data_structures/sparse_vector.hpp
-../snark/libsnark/algebra/knowledge_commitment/libsnark/common/data_structures/sparse_vector.hpp
-libsnark/algebra/knowledge_commitment/knowledge_commitment.tcc
-../snark/libsnark/algebra/knowledge_commitment/libsnark/algebra/knowledge_commitment/knowledge_commitment.tcc
-
-../snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.tcc
-
-../snark/libsnark/algebra/scalar_multiplication/kc_multiexp.hpp
-algebra/knowledge_commitment/knowledge_commitment.hpp
-../snark/libsnark/algebra/scalar_multiplication/algebra/knowledge_commitment/knowledge_commitment.hpp
-algebra/scalar_multiplication/kc_multiexp.tcc
-../snark/libsnark/algebra/scalar_multiplication/algebra/scalar_multiplication/kc_multiexp.tcc
-
-../snark/libsnark/algebra/scalar_multiplication/kc_multiexp.tcc
-
-../snark/libsnark/algebra/scalar_multiplication/multiexp.hpp
-libsnark/algebra/scalar_multiplication/multiexp.tcc
-../snark/libsnark/algebra/scalar_multiplication/libsnark/algebra/scalar_multiplication/multiexp.tcc
-
-../snark/libsnark/algebra/scalar_multiplication/multiexp.tcc
-libsnark/algebra/fields/fp_aux.tcc
-../snark/libsnark/algebra/scalar_multiplication/libsnark/algebra/fields/fp_aux.tcc
-algorithm
--
-cassert
--
-type_traits
--
-libsnark/common/profiling.hpp
-../snark/libsnark/algebra/scalar_multiplication/libsnark/common/profiling.hpp
-libsnark/common/utils.hpp
-../snark/libsnark/algebra/scalar_multiplication/libsnark/common/utils.hpp
-libsnark/algebra/scalar_multiplication/wnaf.hpp
-../snark/libsnark/algebra/scalar_multiplication/libsnark/algebra/scalar_multiplication/wnaf.hpp
-
-../snark/libsnark/algebra/scalar_multiplication/wnaf.hpp
-libsnark/algebra/scalar_multiplication/wnaf.tcc
-../snark/libsnark/algebra/scalar_multiplication/libsnark/algebra/scalar_multiplication/wnaf.tcc
-
-../snark/libsnark/algebra/scalar_multiplication/wnaf.tcc
-
 ../snark/libsnark/common/assert_except.hpp
 exception
 -
 
 ../snark/libsnark/common/data_structures/accumulation_vector.hpp
+iostream
+-
 libsnark/common/data_structures/sparse_vector.hpp
-../snark/libsnark/common/data_structures/libsnark/common/data_structures/sparse_vector.hpp
+-
 libsnark/common/data_structures/accumulation_vector.tcc
-../snark/libsnark/common/data_structures/libsnark/common/data_structures/accumulation_vector.tcc
+-
 
 ../snark/libsnark/common/data_structures/accumulation_vector.tcc
 
@@ -599,46 +517,50 @@ map
 -
 vector
 -
-common/utils.hpp
-../snark/libsnark/common/data_structures/common/utils.hpp
-common/data_structures/merkle_tree.tcc
-../snark/libsnark/common/data_structures/common/data_structures/merkle_tree.tcc
+libff/common/utils.hpp
+-
+libsnark/common/data_structures/merkle_tree.tcc
+-
 
 ../snark/libsnark/common/data_structures/merkle_tree.tcc
 algorithm
 -
-common/profiling.hpp
-../snark/libsnark/common/data_structures/common/profiling.hpp
-common/utils.hpp
-../snark/libsnark/common/data_structures/common/utils.hpp
+libff/common/profiling.hpp
+-
+libff/common/utils.hpp
+-
 
 ../snark/libsnark/common/data_structures/sparse_vector.hpp
+iostream
+-
 vector
 -
 libsnark/common/data_structures/sparse_vector.tcc
-../snark/libsnark/common/data_structures/libsnark/common/data_structures/sparse_vector.tcc
+-
 
 ../snark/libsnark/common/data_structures/sparse_vector.tcc
-libsnark/algebra/scalar_multiplication/multiexp.hpp
-../snark/libsnark/common/data_structures/libsnark/algebra/scalar_multiplication/multiexp.hpp
 numeric
+-
+omp.h
+-
+libff/algebra/scalar_multiplication/multiexp.hpp
 -
 
 ../snark/libsnark/common/default_types/ec_pp.hpp
 algebra/curves/alt_bn128/alt_bn128_pp.hpp
 ../snark/libsnark/common/default_types/algebra/curves/alt_bn128/alt_bn128_pp.hpp
-libsnark/algebra/curves/bn128/bn128_pp.hpp
-../snark/libsnark/common/default_types/libsnark/algebra/curves/bn128/bn128_pp.hpp
-libsnark/algebra/curves/edwards/edwards_pp.hpp
-../snark/libsnark/common/default_types/libsnark/algebra/curves/edwards/edwards_pp.hpp
-libsnark/algebra/curves/mnt/mnt4/mnt4_pp.hpp
-../snark/libsnark/common/default_types/libsnark/algebra/curves/mnt/mnt4/mnt4_pp.hpp
-libsnark/algebra/curves/mnt/mnt6/mnt6_pp.hpp
-../snark/libsnark/common/default_types/libsnark/algebra/curves/mnt/mnt6/mnt6_pp.hpp
+algebra/curves/bn128/bn128_pp.hpp
+../snark/libsnark/common/default_types/algebra/curves/bn128/bn128_pp.hpp
+algebra/curves/edwards/edwards_pp.hpp
+../snark/libsnark/common/default_types/algebra/curves/edwards/edwards_pp.hpp
+algebra/curves/mnt/mnt4/mnt4_pp.hpp
+../snark/libsnark/common/default_types/algebra/curves/mnt/mnt4/mnt4_pp.hpp
+algebra/curves/mnt/mnt6/mnt6_pp.hpp
+../snark/libsnark/common/default_types/algebra/curves/mnt/mnt6/mnt6_pp.hpp
 
 ../snark/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
-libsnark/common/default_types/ec_pp.hpp
-../snark/libsnark/common/default_types/libsnark/common/default_types/ec_pp.hpp
+common/default_types/ec_pp.hpp
+../snark/libsnark/common/default_types/common/default_types/ec_pp.hpp
 
 ../snark/libsnark/common/profiling.hpp
 cstddef
@@ -661,16 +583,16 @@ set
 -
 vector
 -
-libsnark/common/serialization.tcc
-../snark/libsnark/common/libsnark/common/serialization.tcc
+common/serialization.tcc
+../snark/libsnark/common/common/serialization.tcc
 
 ../snark/libsnark/common/serialization.tcc
 cassert
 -
 sstream
 -
-libsnark/common/utils.hpp
-../snark/libsnark/common/libsnark/common/utils.hpp
+common/utils.hpp
+../snark/libsnark/common/common/utils.hpp
 
 ../snark/libsnark/common/utils.hpp
 cassert
@@ -683,16 +605,16 @@ string
 -
 vector
 -
-libsnark/common/utils.tcc
-../snark/libsnark/common/libsnark/common/utils.tcc
+common/utils.tcc
+../snark/libsnark/common/common/utils.tcc
 
 ../snark/libsnark/common/utils.tcc
 
 ../snark/libsnark/gadgetlib1/gadget.hpp
-gadgetlib1/protoboard.hpp
-../snark/libsnark/gadgetlib1/gadgetlib1/protoboard.hpp
-gadgetlib1/gadget.tcc
-../snark/libsnark/gadgetlib1/gadgetlib1/gadget.tcc
+libsnark/gadgetlib1/protoboard.hpp
+-
+libsnark/gadgetlib1/gadget.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadget.tcc
 
@@ -701,26 +623,26 @@ cassert
 -
 memory
 -
-gadgetlib1/gadget.hpp
-../snark/libsnark/gadgetlib1/gadgets/gadgetlib1/gadget.hpp
-gadgetlib1/gadgets/basic_gadgets.tcc
-../snark/libsnark/gadgetlib1/gadgets/gadgetlib1/gadgets/basic_gadgets.tcc
+libsnark/gadgetlib1/gadget.hpp
+-
+libsnark/gadgetlib1/gadgets/basic_gadgets.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/basic_gadgets.tcc
-common/profiling.hpp
-../snark/libsnark/gadgetlib1/gadgets/common/profiling.hpp
-common/utils.hpp
-../snark/libsnark/gadgetlib1/gadgets/common/utils.hpp
+libff/common/profiling.hpp
+-
+libff/common/utils.hpp
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/digest_selector_gadget.hpp
 vector
 -
-gadgetlib1/gadgets/basic_gadgets.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/gadgetlib1/gadgets/basic_gadgets.hpp
-gadgetlib1/gadgets/hashes/hash_io.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/gadgetlib1/gadgets/hashes/hash_io.hpp
-gadgetlib1/gadgets/hashes/digest_selector_gadget.tcc
-../snark/libsnark/gadgetlib1/gadgets/hashes/gadgetlib1/gadgets/hashes/digest_selector_gadget.tcc
+libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/hash_io.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/digest_selector_gadget.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/digest_selector_gadget.tcc
 
@@ -729,72 +651,74 @@ cstddef
 -
 vector
 -
-gadgetlib1/gadgets/basic_gadgets.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/gadgetlib1/gadgets/basic_gadgets.hpp
-gadgetlib1/gadgets/hashes/hash_io.tcc
-../snark/libsnark/gadgetlib1/gadgets/hashes/gadgetlib1/gadgets/hashes/hash_io.tcc
+libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/hash_io.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/hash_io.tcc
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_aux.hpp
-gadgetlib1/gadgets/basic_gadgets.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/basic_gadgets.hpp
-gadgetlib1/gadgets/hashes/sha256/sha256_aux.tcc
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/sha256/sha256_aux.tcc
+libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_aux.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_aux.tcc
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_components.hpp
-gadgetlib1/gadgets/basic_gadgets.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/basic_gadgets.hpp
-gadgetlib1/gadgets/hashes/hash_io.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/hash_io.hpp
-gadgetlib1/gadgets/hashes/sha256/sha256_aux.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/sha256/sha256_aux.hpp
-gadgetlib1/gadgets/hashes/sha256/sha256_components.tcc
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/sha256/sha256_components.tcc
+libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/hash_io.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_aux.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_components.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_components.tcc
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.hpp
-common/data_structures/merkle_tree.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/common/data_structures/merkle_tree.hpp
-gadgetlib1/gadgets/basic_gadgets.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/basic_gadgets.hpp
-gadgetlib1/gadgets/hashes/hash_io.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/hash_io.hpp
-gadgetlib1/gadgets/hashes/sha256/sha256_components.hpp
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/sha256/sha256_components.hpp
-gadgetlib1/gadgets/hashes/sha256/sha256_gadget.tcc
-../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.tcc
+libsnark/common/data_structures/merkle_tree.hpp
+-
+libsnark/gadgetlib1/gadgets/basic_gadgets.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/hash_io.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_components.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.tcc
 
 ../snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.hpp
-common/data_structures/merkle_tree.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/common/data_structures/merkle_tree.hpp
-gadgetlib1/gadget.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadget.hpp
-gadgetlib1/gadgets/hashes/hash_io.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadgets/hashes/hash_io.hpp
-gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.tcc
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.tcc
+libsnark/common/data_structures/merkle_tree.hpp
+-
+libsnark/gadgetlib1/gadget.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/hash_io.hpp
+-
+libsnark/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.tcc
 
 ../snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.hpp
-common/data_structures/merkle_tree.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/common/data_structures/merkle_tree.hpp
-gadgetlib1/gadget.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadget.hpp
-gadgetlib1/gadgets/hashes/hash_io.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadgets/hashes/hash_io.hpp
-gadgetlib1/gadgets/hashes/digest_selector_gadget.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadgets/hashes/digest_selector_gadget.hpp
-gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.hpp
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.hpp
-gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.tcc
-../snark/libsnark/gadgetlib1/gadgets/merkle_tree/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.tcc
+libsnark/common/data_structures/merkle_tree.hpp
+-
+libsnark/gadgetlib1/gadget.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/crh_gadget.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/digest_selector_gadget.hpp
+-
+libsnark/gadgetlib1/gadgets/hashes/hash_io.hpp
+-
+libsnark/gadgetlib1/gadgets/merkle_tree/merkle_authentication_path_variable.hpp
+-
+libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.tcc
+-
 
 ../snark/libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.tcc
 
@@ -805,20 +729,20 @@ string
 -
 vector
 -
-common/utils.hpp
-../snark/libsnark/gadgetlib1/common/utils.hpp
-relations/variable.hpp
-../snark/libsnark/gadgetlib1/relations/variable.hpp
-gadgetlib1/pb_variable.tcc
-../snark/libsnark/gadgetlib1/gadgetlib1/pb_variable.tcc
+libff/common/utils.hpp
+-
+libsnark/relations/variable.hpp
+-
+libsnark/gadgetlib1/pb_variable.tcc
+-
 
 ../snark/libsnark/gadgetlib1/pb_variable.tcc
 cassert
 -
-gadgetlib1/protoboard.hpp
-../snark/libsnark/gadgetlib1/gadgetlib1/protoboard.hpp
-common/utils.hpp
-../snark/libsnark/gadgetlib1/common/utils.hpp
+libff/common/utils.hpp
+-
+libsnark/gadgetlib1/protoboard.hpp
+-
 
 ../snark/libsnark/gadgetlib1/protoboard.hpp
 algorithm
@@ -831,54 +755,58 @@ string
 -
 vector
 -
-gadgetlib1/pb_variable.hpp
-../snark/libsnark/gadgetlib1/gadgetlib1/pb_variable.hpp
-relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-../snark/libsnark/gadgetlib1/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-common/utils.hpp
-../snark/libsnark/gadgetlib1/common/utils.hpp
-gadgetlib1/protoboard.tcc
-../snark/libsnark/gadgetlib1/gadgetlib1/protoboard.tcc
+libff/common/utils.hpp
+-
+libsnark/gadgetlib1/pb_variable.hpp
+-
+libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
+-
+libsnark/gadgetlib1/protoboard.tcc
+-
 
 ../snark/libsnark/gadgetlib1/protoboard.tcc
-cstdio
--
 cstdarg
 -
-common/profiling.hpp
-../snark/libsnark/gadgetlib1/common/profiling.hpp
+cstdio
+-
+libff/common/profiling.hpp
+-
 
 ../snark/libsnark/reductions/r1cs_to_qap/r1cs_to_qap.hpp
-relations/arithmetic_programs/qap/qap.hpp
-../snark/libsnark/reductions/r1cs_to_qap/relations/arithmetic_programs/qap/qap.hpp
-relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-../snark/libsnark/reductions/r1cs_to_qap/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-reductions/r1cs_to_qap/r1cs_to_qap.tcc
-../snark/libsnark/reductions/r1cs_to_qap/reductions/r1cs_to_qap/r1cs_to_qap.tcc
+libsnark/relations/arithmetic_programs/qap/qap.hpp
+-
+libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
+-
+libsnark/reductions/r1cs_to_qap/r1cs_to_qap.tcc
+-
 
 ../snark/libsnark/reductions/r1cs_to_qap/r1cs_to_qap.tcc
-common/profiling.hpp
-../snark/libsnark/reductions/r1cs_to_qap/common/profiling.hpp
-common/utils.hpp
-../snark/libsnark/reductions/r1cs_to_qap/common/utils.hpp
-algebra/evaluation_domain/evaluation_domain.hpp
-../snark/libsnark/reductions/r1cs_to_qap/algebra/evaluation_domain/evaluation_domain.hpp
+libff/common/profiling.hpp
+-
+libff/common/utils.hpp
+-
+libfqfft/evaluation_domain/get_evaluation_domain.hpp
+-
 
 ../snark/libsnark/relations/arithmetic_programs/qap/qap.hpp
-algebra/evaluation_domain/evaluation_domain.hpp
-../snark/libsnark/relations/arithmetic_programs/qap/algebra/evaluation_domain/evaluation_domain.hpp
-relations/arithmetic_programs/qap/qap.tcc
-../snark/libsnark/relations/arithmetic_programs/qap/relations/arithmetic_programs/qap/qap.tcc
+map
+-
+memory
+-
+libfqfft/evaluation_domain/evaluation_domain.hpp
+-
+libsnark/relations/arithmetic_programs/qap/qap.tcc
+-
 
 ../snark/libsnark/relations/arithmetic_programs/qap/qap.tcc
-common/profiling.hpp
-../snark/libsnark/relations/arithmetic_programs/qap/common/profiling.hpp
-common/utils.hpp
-../snark/libsnark/relations/arithmetic_programs/qap/common/utils.hpp
-algebra/evaluation_domain/evaluation_domain.hpp
-../snark/libsnark/relations/arithmetic_programs/qap/algebra/evaluation_domain/evaluation_domain.hpp
-algebra/scalar_multiplication/multiexp.hpp
-../snark/libsnark/relations/arithmetic_programs/qap/algebra/scalar_multiplication/multiexp.hpp
+libff/algebra/scalar_multiplication/multiexp.hpp
+-
+libff/common/profiling.hpp
+-
+libff/common/utils.hpp
+-
+libfqfft/evaluation_domain/evaluation_domain.hpp
+-
 
 ../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
 cstdlib
@@ -892,9 +820,9 @@ string
 vector
 -
 libsnark/relations/variable.hpp
-../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/libsnark/relations/variable.hpp
+-
 libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc
-../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc
+-
 
 ../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc
 algorithm
@@ -903,12 +831,12 @@ cassert
 -
 set
 -
-common/utils.hpp
-../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/common/utils.hpp
-common/profiling.hpp
-../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/common/profiling.hpp
-algebra/fields/bigint.hpp
-../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/algebra/fields/bigint.hpp
+libff/algebra/fields/bigint.hpp
+-
+libff/common/profiling.hpp
+-
+libff/common/utils.hpp
+-
 
 ../snark/libsnark/relations/variable.hpp
 cstddef
@@ -920,31 +848,31 @@ string
 vector
 -
 libsnark/relations/variable.tcc
-../snark/libsnark/relations/libsnark/relations/variable.tcc
+-
 
 ../snark/libsnark/relations/variable.tcc
 algorithm
 -
 cassert
 -
-libsnark/algebra/fields/bigint.hpp
-../snark/libsnark/relations/libsnark/algebra/fields/bigint.hpp
+libff/algebra/fields/bigint.hpp
+-
 
 ../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
 memory
 -
-libsnark/algebra/curves/public_params.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/libsnark/algebra/curves/public_params.hpp
+libff/algebra/curves/public_params.hpp
+-
 libsnark/common/data_structures/accumulation_vector.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/libsnark/common/data_structures/accumulation_vector.hpp
-libsnark/algebra/knowledge_commitment/knowledge_commitment.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/libsnark/algebra/knowledge_commitment/knowledge_commitment.hpp
+-
+libsnark/knowledge_commitment/knowledge_commitment.hpp
+-
 libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
+-
 libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
-zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
+-
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
+-
 
 ../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
 algorithm
@@ -957,20 +885,24 @@ iostream
 -
 sstream
 -
-common/profiling.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/common/profiling.hpp
-common/utils.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/common/utils.hpp
-algebra/scalar_multiplication/multiexp.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/algebra/scalar_multiplication/multiexp.hpp
-algebra/scalar_multiplication/kc_multiexp.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/algebra/scalar_multiplication/kc_multiexp.hpp
-reductions/r1cs_to_qap/r1cs_to_qap.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/reductions/r1cs_to_qap/r1cs_to_qap.hpp
+libff/algebra/scalar_multiplication/multiexp.hpp
+-
+libff/common/profiling.hpp
+-
+libff/common/utils.hpp
+-
+omp.h
+-
+libsnark/knowledge_commitment/kc_multiexp.hpp
+-
+libsnark/reductions/r1cs_to_qap/r1cs_to_qap.hpp
+-
 
 ../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
-relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
+libff/algebra/curves/public_params.hpp
+-
+libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
+-
 
 /home/reza/development/conf-bank/DAP/tinyformat.h
 algorithm
@@ -1108,6 +1040,10 @@ libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
 libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.hpp
 -
 libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.hpp
+-
+libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
+-
+tinyformat.h
 -
 tinyformat.h
 /home/reza/development/conf-bank/DAP/zcash/tinyformat.h

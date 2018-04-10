@@ -26,8 +26,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../primitives"
   "../script"
   "../snark/libsnark"
+  "../snark/libsnark/common"
+  "../snark/gtest/googletest/include"
   "../depends"
-  "../depends/libsnark"
+  "../depends/snark"
   "../depends/crypto"
   )
 

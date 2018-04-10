@@ -260,6 +260,114 @@ libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s:
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
 .PHONY : libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
 
+libsnark/algebra/curves/tests/test_bilinearity.o: libsnark/algebra/curves/tests/test_bilinearity.cpp.o
+
+.PHONY : libsnark/algebra/curves/tests/test_bilinearity.o
+
+# target to build an object file
+libsnark/algebra/curves/tests/test_bilinearity.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o
+.PHONY : libsnark/algebra/curves/tests/test_bilinearity.cpp.o
+
+libsnark/algebra/curves/tests/test_bilinearity.i: libsnark/algebra/curves/tests/test_bilinearity.cpp.i
+
+.PHONY : libsnark/algebra/curves/tests/test_bilinearity.i
+
+# target to preprocess a source file
+libsnark/algebra/curves/tests/test_bilinearity.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.i
+.PHONY : libsnark/algebra/curves/tests/test_bilinearity.cpp.i
+
+libsnark/algebra/curves/tests/test_bilinearity.s: libsnark/algebra/curves/tests/test_bilinearity.cpp.s
+
+.PHONY : libsnark/algebra/curves/tests/test_bilinearity.s
+
+# target to generate assembly for a file
+libsnark/algebra/curves/tests/test_bilinearity.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.s
+.PHONY : libsnark/algebra/curves/tests/test_bilinearity.cpp.s
+
+libsnark/algebra/curves/tests/test_groups.o: libsnark/algebra/curves/tests/test_groups.cpp.o
+
+.PHONY : libsnark/algebra/curves/tests/test_groups.o
+
+# target to build an object file
+libsnark/algebra/curves/tests/test_groups.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o
+.PHONY : libsnark/algebra/curves/tests/test_groups.cpp.o
+
+libsnark/algebra/curves/tests/test_groups.i: libsnark/algebra/curves/tests/test_groups.cpp.i
+
+.PHONY : libsnark/algebra/curves/tests/test_groups.i
+
+# target to preprocess a source file
+libsnark/algebra/curves/tests/test_groups.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.i
+.PHONY : libsnark/algebra/curves/tests/test_groups.cpp.i
+
+libsnark/algebra/curves/tests/test_groups.s: libsnark/algebra/curves/tests/test_groups.cpp.s
+
+.PHONY : libsnark/algebra/curves/tests/test_groups.s
+
+# target to generate assembly for a file
+libsnark/algebra/curves/tests/test_groups.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.s
+.PHONY : libsnark/algebra/curves/tests/test_groups.cpp.s
+
+libsnark/algebra/fields/tests/test_bigint.o: libsnark/algebra/fields/tests/test_bigint.cpp.o
+
+.PHONY : libsnark/algebra/fields/tests/test_bigint.o
+
+# target to build an object file
+libsnark/algebra/fields/tests/test_bigint.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o
+.PHONY : libsnark/algebra/fields/tests/test_bigint.cpp.o
+
+libsnark/algebra/fields/tests/test_bigint.i: libsnark/algebra/fields/tests/test_bigint.cpp.i
+
+.PHONY : libsnark/algebra/fields/tests/test_bigint.i
+
+# target to preprocess a source file
+libsnark/algebra/fields/tests/test_bigint.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.i
+.PHONY : libsnark/algebra/fields/tests/test_bigint.cpp.i
+
+libsnark/algebra/fields/tests/test_bigint.s: libsnark/algebra/fields/tests/test_bigint.cpp.s
+
+.PHONY : libsnark/algebra/fields/tests/test_bigint.s
+
+# target to generate assembly for a file
+libsnark/algebra/fields/tests/test_bigint.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.s
+.PHONY : libsnark/algebra/fields/tests/test_bigint.cpp.s
+
+libsnark/algebra/fields/tests/test_fields.o: libsnark/algebra/fields/tests/test_fields.cpp.o
+
+.PHONY : libsnark/algebra/fields/tests/test_fields.o
+
+# target to build an object file
+libsnark/algebra/fields/tests/test_fields.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o
+.PHONY : libsnark/algebra/fields/tests/test_fields.cpp.o
+
+libsnark/algebra/fields/tests/test_fields.i: libsnark/algebra/fields/tests/test_fields.cpp.i
+
+.PHONY : libsnark/algebra/fields/tests/test_fields.i
+
+# target to preprocess a source file
+libsnark/algebra/fields/tests/test_fields.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.i
+.PHONY : libsnark/algebra/fields/tests/test_fields.cpp.i
+
+libsnark/algebra/fields/tests/test_fields.s: libsnark/algebra/fields/tests/test_fields.cpp.s
+
+.PHONY : libsnark/algebra/fields/tests/test_fields.s
+
+# target to generate assembly for a file
+libsnark/algebra/fields/tests/test_fields.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.s
+.PHONY : libsnark/algebra/fields/tests/test_fields.cpp.s
+
 libsnark/common/profiling.o: libsnark/common/profiling.cpp.o
 
 .PHONY : libsnark/common/profiling.o
@@ -341,6 +449,87 @@ libsnark/gadgetlib1/constraint_profiling.cpp.s:
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.s
 .PHONY : libsnark/gadgetlib1/constraint_profiling.cpp.s
 
+libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.o: libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
+
+.PHONY : libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.o
+
+# target to build an object file
+libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
+.PHONY : libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
+
+libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.i: libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
+
+.PHONY : libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.i
+
+# target to preprocess a source file
+libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
+.PHONY : libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
+
+libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.s: libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
+
+.PHONY : libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.s
+
+# target to generate assembly for a file
+libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
+.PHONY : libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
+
+libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.o: libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
+
+.PHONY : libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.o
+
+# target to build an object file
+libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
+.PHONY : libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
+
+libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.i: libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
+
+.PHONY : libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.i
+
+# target to preprocess a source file
+libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
+.PHONY : libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
+
+libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.s: libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
+
+.PHONY : libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.s
+
+# target to generate assembly for a file
+libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
+.PHONY : libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
+
+libsnark/relations/arithmetic_programs/qap/tests/test_qap.o: libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
+
+.PHONY : libsnark/relations/arithmetic_programs/qap/tests/test_qap.o
+
+# target to build an object file
+libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
+.PHONY : libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
+
+libsnark/relations/arithmetic_programs/qap/tests/test_qap.i: libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i
+
+.PHONY : libsnark/relations/arithmetic_programs/qap/tests/test_qap.i
+
+# target to preprocess a source file
+libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i
+.PHONY : libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i
+
+libsnark/relations/arithmetic_programs/qap/tests/test_qap.s: libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s
+
+.PHONY : libsnark/relations/arithmetic_programs/qap/tests/test_qap.s
+
+# target to generate assembly for a file
+libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s
+.PHONY : libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s
+
 libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.o: libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
 
 .PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.o
@@ -368,6 +557,33 @@ libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksn
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s
 .PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s
 
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.o: libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
+
+.PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.o
+
+# target to build an object file
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
+.PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
+
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.i: libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
+
+.PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.i
+
+# target to preprocess a source file
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
+.PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
+
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.s: libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
+
+.PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.s
+
+# target to generate assembly for a file
+libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
+.PHONY : libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -392,6 +608,18 @@ help:
 	@echo "... libsnark/algebra/curves/alt_bn128/alt_bn128_pp.o"
 	@echo "... libsnark/algebra/curves/alt_bn128/alt_bn128_pp.i"
 	@echo "... libsnark/algebra/curves/alt_bn128/alt_bn128_pp.s"
+	@echo "... libsnark/algebra/curves/tests/test_bilinearity.o"
+	@echo "... libsnark/algebra/curves/tests/test_bilinearity.i"
+	@echo "... libsnark/algebra/curves/tests/test_bilinearity.s"
+	@echo "... libsnark/algebra/curves/tests/test_groups.o"
+	@echo "... libsnark/algebra/curves/tests/test_groups.i"
+	@echo "... libsnark/algebra/curves/tests/test_groups.s"
+	@echo "... libsnark/algebra/fields/tests/test_bigint.o"
+	@echo "... libsnark/algebra/fields/tests/test_bigint.i"
+	@echo "... libsnark/algebra/fields/tests/test_bigint.s"
+	@echo "... libsnark/algebra/fields/tests/test_fields.o"
+	@echo "... libsnark/algebra/fields/tests/test_fields.i"
+	@echo "... libsnark/algebra/fields/tests/test_fields.s"
 	@echo "... libsnark/common/profiling.o"
 	@echo "... libsnark/common/profiling.i"
 	@echo "... libsnark/common/profiling.s"
@@ -401,9 +629,21 @@ help:
 	@echo "... libsnark/gadgetlib1/constraint_profiling.o"
 	@echo "... libsnark/gadgetlib1/constraint_profiling.i"
 	@echo "... libsnark/gadgetlib1/constraint_profiling.s"
+	@echo "... libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.o"
+	@echo "... libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.i"
+	@echo "... libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.s"
+	@echo "... libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.o"
+	@echo "... libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.i"
+	@echo "... libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.s"
+	@echo "... libsnark/relations/arithmetic_programs/qap/tests/test_qap.o"
+	@echo "... libsnark/relations/arithmetic_programs/qap/tests/test_qap.i"
+	@echo "... libsnark/relations/arithmetic_programs/qap/tests/test_qap.s"
 	@echo "... libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.o"
 	@echo "... libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.i"
 	@echo "... libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.s"
+	@echo "... libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.o"
+	@echo "... libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.i"
+	@echo "... libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.s"
 .PHONY : help
 
 

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././support/cleanse.h
+stdlib.h
+-
+
+.././support/pagelocker.h
+support/cleanse.h
+.././support/support/cleanse.h
+map
+-
+boost/thread/mutex.hpp
+-
+boost/thread/once.hpp
+-
+
+/home/reza/development/conf-bank/DAP/support/cleanse.cpp
+cleanse.h
+/home/reza/development/conf-bank/DAP/support/cleanse.h
+openssl/crypto.h
+-
+
+/home/reza/development/conf-bank/DAP/support/cleanse.h
+stdlib.h
+-
+
+/home/reza/development/conf-bank/DAP/support/pagelocker.cpp
+support/pagelocker.h
+/home/reza/development/conf-bank/DAP/support/support/pagelocker.h
+config/bitcoin-config.h
+/home/reza/development/conf-bank/DAP/support/config/bitcoin-config.h
+windows.h
+-
+sys/mman.h
+-
+limits.h
+-
+unistd.h
+-
+

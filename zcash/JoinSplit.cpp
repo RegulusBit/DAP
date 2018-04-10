@@ -14,6 +14,8 @@
 #include <libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp>
 #include <libsnark/gadgetlib1/gadgets/hashes/sha256/sha256_gadget.hpp>
 #include <libsnark/gadgetlib1/gadgets/merkle_tree/merkle_tree_check_read_gadget.hpp>
+#include <libsnark/common/default_types/r1cs_ppzksnark_pp.hpp>
+#include <tinyformat.h>
 #include "tinyformat.h"
 #include "sync.h"
 #include "amount.h"
@@ -43,6 +45,8 @@ void saveToFile(const std::string path, T& obj) {
 
 template<typename T>
 void loadFromFile(const std::string path, T& objIn) {
+
+
     LOCK(cs_ParamsIO);
 
     std::stringstream ss;
@@ -55,12 +59,18 @@ void loadFromFile(const std::string path, T& objIn) {
     ss << fh.rdbuf();
     fh.close();
 
+
     ss.rdbuf()->pubseekpos(0, std::ios_base::in);
 
+    //TODO: HAS ERROR
     T obj;
     ss >> obj;
 
+
+
     objIn = std::move(obj);
+
+
 }
 
 template<size_t NumInputs, size_t NumOutputs>

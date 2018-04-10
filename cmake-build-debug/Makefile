@@ -163,17 +163,17 @@ script/fast:
 .PHONY : script/fast
 
 #=============================================================================
-# Target rules for targets named crypto
+# Target rules for targets named libcrypto
 
 # Build rule for target.
-crypto: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 crypto
-.PHONY : crypto
+libcrypto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libcrypto
+.PHONY : libcrypto
 
 # fast build rule for target.
-crypto/fast:
-	$(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/build
-.PHONY : crypto/fast
+libcrypto/fast:
+	$(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/build
+.PHONY : libcrypto/fast
 
 #=============================================================================
 # Target rules for targets named libsnark
@@ -187,6 +187,19 @@ libsnark: cmake_check_build_system
 libsnark/fast:
 	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/build
 .PHONY : libsnark/fast
+
+#=============================================================================
+# Target rules for targets named support
+
+# Build rule for target.
+support: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 support
+.PHONY : support
+
+# fast build rule for target.
+support/fast:
+	$(MAKE) -f support/CMakeFiles/support.dir/build.make support/CMakeFiles/support.dir/build
+.PHONY : support/fast
 
 amount.o: amount.cpp.o
 
@@ -377,6 +390,33 @@ uint256.cpp.s:
 	$(MAKE) -f CMakeFiles/dap.dir/build.make CMakeFiles/dap.dir/uint256.cpp.s
 .PHONY : uint256.cpp.s
 
+util.o: util.cpp.o
+
+.PHONY : util.o
+
+# target to build an object file
+util.cpp.o:
+	$(MAKE) -f CMakeFiles/dap.dir/build.make CMakeFiles/dap.dir/util.cpp.o
+.PHONY : util.cpp.o
+
+util.i: util.cpp.i
+
+.PHONY : util.i
+
+# target to preprocess a source file
+util.cpp.i:
+	$(MAKE) -f CMakeFiles/dap.dir/build.make CMakeFiles/dap.dir/util.cpp.i
+.PHONY : util.cpp.i
+
+util.s: util.cpp.s
+
+.PHONY : util.s
+
+# target to generate assembly for a file
+util.cpp.s:
+	$(MAKE) -f CMakeFiles/dap.dir/build.make CMakeFiles/dap.dir/util.cpp.s
+.PHONY : util.cpp.s
+
 utilstrencodings.o: utilstrencodings.cpp.o
 
 .PHONY : utilstrencodings.o
@@ -443,8 +483,9 @@ help:
 	@echo "... libzcash"
 	@echo "... primitives"
 	@echo "... script"
-	@echo "... crypto"
+	@echo "... libcrypto"
 	@echo "... libsnark"
+	@echo "... support"
 	@echo "... amount.o"
 	@echo "... amount.i"
 	@echo "... amount.s"
@@ -466,6 +507,9 @@ help:
 	@echo "... uint256.o"
 	@echo "... uint256.i"
 	@echo "... uint256.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 	@echo "... utilstrencodings.o"
 	@echo "... utilstrencodings.i"
 	@echo "... utilstrencodings.s"

@@ -39,6 +39,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/reza/development/conf-bank/DAP/cmake-build-debug/script/cmake_install.cmake")
   include("/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/cmake_install.cmake")
   include("/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/cmake_install.cmake")
+  include("/home/reza/development/conf-bank/DAP/cmake-build-debug/support/cmake_install.cmake")
 
 endif()
 

@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dap.dir/sync.cpp.o"
   "CMakeFiles/dap.dir/utiltime.cpp.o"
   "CMakeFiles/dap.dir/pubkey.cpp.o"
+  "CMakeFiles/dap.dir/util.cpp.o"
   "dap.pdb"
   "dap"
 )

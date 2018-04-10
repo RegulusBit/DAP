@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto/CMakeFiles/crypto.dir/rule:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 crypto/CMakeFiles/crypto.dir/rule
-.PHONY : crypto/CMakeFiles/crypto.dir/rule
+crypto/CMakeFiles/libcrypto.dir/rule:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 crypto/CMakeFiles/libcrypto.dir/rule
+.PHONY : crypto/CMakeFiles/libcrypto.dir/rule
 
 # Convenience name for target.
-crypto: crypto/CMakeFiles/crypto.dir/rule
+libcrypto: crypto/CMakeFiles/libcrypto.dir/rule
 
-.PHONY : crypto
+.PHONY : libcrypto
 
 # fast build rule for target.
-crypto/fast:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/build
-.PHONY : crypto/fast
+libcrypto/fast:
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/build
+.PHONY : libcrypto/fast
 
 equihash.o: equihash.cpp.o
 
@@ -131,7 +131,7 @@ equihash.o: equihash.cpp.o
 
 # target to build an object file
 equihash.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/equihash.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/equihash.cpp.o
 .PHONY : equihash.cpp.o
 
 equihash.i: equihash.cpp.i
@@ -140,7 +140,7 @@ equihash.i: equihash.cpp.i
 
 # target to preprocess a source file
 equihash.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/equihash.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/equihash.cpp.i
 .PHONY : equihash.cpp.i
 
 equihash.s: equihash.cpp.s
@@ -149,7 +149,7 @@ equihash.s: equihash.cpp.s
 
 # target to generate assembly for a file
 equihash.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/equihash.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/equihash.cpp.s
 .PHONY : equihash.cpp.s
 
 hmac_sha256.o: hmac_sha256.cpp.o
@@ -158,7 +158,7 @@ hmac_sha256.o: hmac_sha256.cpp.o
 
 # target to build an object file
 hmac_sha256.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/hmac_sha256.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/hmac_sha256.cpp.o
 .PHONY : hmac_sha256.cpp.o
 
 hmac_sha256.i: hmac_sha256.cpp.i
@@ -167,7 +167,7 @@ hmac_sha256.i: hmac_sha256.cpp.i
 
 # target to preprocess a source file
 hmac_sha256.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/hmac_sha256.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/hmac_sha256.cpp.i
 .PHONY : hmac_sha256.cpp.i
 
 hmac_sha256.s: hmac_sha256.cpp.s
@@ -176,7 +176,7 @@ hmac_sha256.s: hmac_sha256.cpp.s
 
 # target to generate assembly for a file
 hmac_sha256.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/hmac_sha256.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/hmac_sha256.cpp.s
 .PHONY : hmac_sha256.cpp.s
 
 hmac_sha512.o: hmac_sha512.cpp.o
@@ -185,7 +185,7 @@ hmac_sha512.o: hmac_sha512.cpp.o
 
 # target to build an object file
 hmac_sha512.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/hmac_sha512.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/hmac_sha512.cpp.o
 .PHONY : hmac_sha512.cpp.o
 
 hmac_sha512.i: hmac_sha512.cpp.i
@@ -194,7 +194,7 @@ hmac_sha512.i: hmac_sha512.cpp.i
 
 # target to preprocess a source file
 hmac_sha512.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/hmac_sha512.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/hmac_sha512.cpp.i
 .PHONY : hmac_sha512.cpp.i
 
 hmac_sha512.s: hmac_sha512.cpp.s
@@ -203,7 +203,7 @@ hmac_sha512.s: hmac_sha512.cpp.s
 
 # target to generate assembly for a file
 hmac_sha512.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/hmac_sha512.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/hmac_sha512.cpp.s
 .PHONY : hmac_sha512.cpp.s
 
 ripemd160.o: ripemd160.cpp.o
@@ -212,7 +212,7 @@ ripemd160.o: ripemd160.cpp.o
 
 # target to build an object file
 ripemd160.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/ripemd160.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/ripemd160.cpp.o
 .PHONY : ripemd160.cpp.o
 
 ripemd160.i: ripemd160.cpp.i
@@ -221,7 +221,7 @@ ripemd160.i: ripemd160.cpp.i
 
 # target to preprocess a source file
 ripemd160.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/ripemd160.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/ripemd160.cpp.i
 .PHONY : ripemd160.cpp.i
 
 ripemd160.s: ripemd160.cpp.s
@@ -230,7 +230,7 @@ ripemd160.s: ripemd160.cpp.s
 
 # target to generate assembly for a file
 ripemd160.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/ripemd160.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/ripemd160.cpp.s
 .PHONY : ripemd160.cpp.s
 
 sha1.o: sha1.cpp.o
@@ -239,7 +239,7 @@ sha1.o: sha1.cpp.o
 
 # target to build an object file
 sha1.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha1.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha1.cpp.o
 .PHONY : sha1.cpp.o
 
 sha1.i: sha1.cpp.i
@@ -248,7 +248,7 @@ sha1.i: sha1.cpp.i
 
 # target to preprocess a source file
 sha1.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha1.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha1.cpp.i
 .PHONY : sha1.cpp.i
 
 sha1.s: sha1.cpp.s
@@ -257,7 +257,7 @@ sha1.s: sha1.cpp.s
 
 # target to generate assembly for a file
 sha1.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha1.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha1.cpp.s
 .PHONY : sha1.cpp.s
 
 sha256.o: sha256.cpp.o
@@ -266,7 +266,7 @@ sha256.o: sha256.cpp.o
 
 # target to build an object file
 sha256.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha256.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha256.cpp.o
 .PHONY : sha256.cpp.o
 
 sha256.i: sha256.cpp.i
@@ -275,7 +275,7 @@ sha256.i: sha256.cpp.i
 
 # target to preprocess a source file
 sha256.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha256.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha256.cpp.i
 .PHONY : sha256.cpp.i
 
 sha256.s: sha256.cpp.s
@@ -284,7 +284,7 @@ sha256.s: sha256.cpp.s
 
 # target to generate assembly for a file
 sha256.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha256.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha256.cpp.s
 .PHONY : sha256.cpp.s
 
 sha512.o: sha512.cpp.o
@@ -293,7 +293,7 @@ sha512.o: sha512.cpp.o
 
 # target to build an object file
 sha512.cpp.o:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha512.cpp.o
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha512.cpp.o
 .PHONY : sha512.cpp.o
 
 sha512.i: sha512.cpp.i
@@ -302,7 +302,7 @@ sha512.i: sha512.cpp.i
 
 # target to preprocess a source file
 sha512.cpp.i:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha512.cpp.i
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha512.cpp.i
 .PHONY : sha512.cpp.i
 
 sha512.s: sha512.cpp.s
@@ -311,7 +311,7 @@ sha512.s: sha512.cpp.s
 
 # target to generate assembly for a file
 sha512.cpp.s:
-	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/sha512.cpp.s
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug && $(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/sha512.cpp.s
 .PHONY : sha512.cpp.s
 
 # Help Target
@@ -322,7 +322,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... crypto"
+	@echo "... libcrypto"
 	@echo "... equihash.o"
 	@echo "... equihash.i"
 	@echo "... equihash.s"

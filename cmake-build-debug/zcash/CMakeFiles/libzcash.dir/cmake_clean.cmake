@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libzcash.dir/prf.cpp.o"
   "CMakeFiles/libzcash.dir/Proof.cpp.o"
   "CMakeFiles/libzcash.dir/util.cpp.o"
-  "liblibzcash.pdb"
-  "liblibzcash.a"
+  "liblibzcashd.pdb"
+  "liblibzcashd.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -15,6 +15,7 @@
 
 /************************ Pick the elliptic curve ****************************/
 
+#define CURVE_ALT_BN128
 
 #ifdef CURVE_ALT_BN128
 #include "algebra/curves/alt_bn128/alt_bn128_pp.hpp"
@@ -24,28 +25,28 @@ typedef alt_bn128_pp default_ec_pp;
 #endif
 
 #ifdef CURVE_BN128
-#include "libsnark/algebra/curves/bn128/bn128_pp.hpp"
+#include "algebra/curves/bn128/bn128_pp.hpp"
 namespace libsnark {
 typedef bn128_pp default_ec_pp;
 } // libsnark
 #endif
 
 #ifdef CURVE_EDWARDS
-#include "libsnark/algebra/curves/edwards/edwards_pp.hpp"
+#include "algebra/curves/edwards/edwards_pp.hpp"
 namespace libsnark {
 typedef edwards_pp default_ec_pp;
 } // libsnark
 #endif
 
 #ifdef CURVE_MNT4
-#include "libsnark/algebra/curves/mnt/mnt4/mnt4_pp.hpp"
+#include "algebra/curves/mnt/mnt4/mnt4_pp.hpp"
 namespace libsnark {
 typedef mnt4_pp default_ec_pp;
 } // libsnark
 #endif
 
 #ifdef CURVE_MNT6
-#include "libsnark/algebra/curves/mnt/mnt6/mnt6_pp.hpp"
+#include "algebra/curves/mnt/mnt6/mnt6_pp.hpp"
 namespace libsnark {
 typedef mnt6_pp default_ec_pp;
 } // libsnark

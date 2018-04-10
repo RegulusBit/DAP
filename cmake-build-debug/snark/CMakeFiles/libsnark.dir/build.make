@@ -177,9 +177,105 @@ snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp
 snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
 
 
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o: ../snark/libsnark/algebra/curves/tests/test_bilinearity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/tests/test_bilinearity.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/tests/test_bilinearity.cpp > CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/tests/test_bilinearity.cpp -o CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o
+
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o: ../snark/libsnark/algebra/curves/tests/test_groups.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/tests/test_groups.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/tests/test_groups.cpp > CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/curves/tests/test_groups.cpp -o CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o
+
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o: ../snark/libsnark/algebra/fields/tests/test_bigint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/tests/test_bigint.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/tests/test_bigint.cpp > CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/tests/test_bigint.cpp -o CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o
+
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o: ../snark/libsnark/algebra/fields/tests/test_fields.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/tests/test_fields.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/tests/test_fields.cpp > CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/algebra/fields/tests/test_fields.cpp -o CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o
+
+
 snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
 snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o: ../snark/libsnark/common/profiling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o"
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/common/profiling.cpp
 
 snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.i: cmake_force
@@ -203,7 +299,7 @@ snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o.provides.build: sn
 
 snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
 snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o: ../snark/libsnark/common/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o"
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/common/utils.cpp
 
 snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.i: cmake_force
@@ -227,7 +323,7 @@ snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o.provides.build: snark/
 
 snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
 snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o: ../snark/libsnark/gadgetlib1/constraint_profiling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o"
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/constraint_profiling.cpp
 
 snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.i: cmake_force
@@ -249,9 +345,81 @@ snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o.pro
 snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o
 
 
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o: ../snark/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp > CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp -o CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
+
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o: ../snark/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp > CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp -o CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
+
+
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o: ../snark/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp > CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp -o CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
+
+
 snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
 snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o: ../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o"
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp
 
 snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.i: cmake_force
@@ -273,6 +441,30 @@ snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark
 snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
 
 
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o: snark/CMakeFiles/libsnark.dir/flags.make
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o: ../snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o -c /home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp
+
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp > CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
+
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s"
+	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reza/development/conf-bank/DAP/snark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp -o CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
+
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.requires:
+
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.requires
+
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.provides: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.requires
+	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.provides.build
+.PHONY : snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.provides
+
+snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.provides.build: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
+
+
 # Object files for target libsnark
 libsnark_OBJECTS = \
 "CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o" \
@@ -280,31 +472,47 @@ libsnark_OBJECTS = \
 "CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_init.cpp.o" \
 "CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o" \
 "CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o" \
 "CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o" \
 "CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o" \
 "CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o" \
-"CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o"
+"CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o" \
+"CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o"
 
 # External object files for target libsnark
 libsnark_EXTERNAL_OBJECTS =
 
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_init.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/build.make
-snark/liblibsnark.a: snark/CMakeFiles/libsnark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library liblibsnark.a"
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_init.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/build.make
+snark/liblibsnarkd.a: snark/CMakeFiles/libsnark.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library liblibsnarkd.a"
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && $(CMAKE_COMMAND) -P CMakeFiles/libsnark.dir/cmake_clean_target.cmake
 	cd /home/reza/development/conf-bank/DAP/cmake-build-debug/snark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libsnark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-snark/CMakeFiles/libsnark.dir/build: snark/liblibsnark.a
+snark/CMakeFiles/libsnark.dir/build: snark/liblibsnarkd.a
 
 .PHONY : snark/CMakeFiles/libsnark.dir/build
 
@@ -313,10 +521,18 @@ snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/a
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_init.cpp.o.requires
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o.requires
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_bilinearity.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/curves/tests/test_groups.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_bigint.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/algebra/fields/tests/test_fields.cpp.o.requires
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/common/profiling.cpp.o.requires
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/common/utils.cpp.o.requires
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/constraint_profiling.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp.o.requires
 snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o.requires
+snark/CMakeFiles/libsnark.dir/requires: snark/CMakeFiles/libsnark.dir/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o.requires
 
 .PHONY : snark/CMakeFiles/libsnark.dir/requires
 

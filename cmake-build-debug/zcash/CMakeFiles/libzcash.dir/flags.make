@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/reza/development/conf-bank/DAP/. -I/home/reza/development/conf-bank/DAP/snark -I/home/reza/development/conf-bank/DAP/crypto -I/home/reza/development/conf-bank/DAP/support -I/home/reza/development/conf-bank/DAP/primitives -I/home/reza/development/conf-bank/DAP/script -I/home/reza/development/conf-bank/DAP/snark/libsnark -I/home/reza/development/conf-bank/DAP/depends -I/home/reza/development/conf-bank/DAP/depends/libsnark -I/home/reza/development/conf-bank/DAP/depends/crypto 
+CXX_INCLUDES = -I/home/reza/development/conf-bank/DAP/. -I/home/reza/development/conf-bank/DAP/snark -I/home/reza/development/conf-bank/DAP/crypto -I/home/reza/development/conf-bank/DAP/support -I/home/reza/development/conf-bank/DAP/primitives -I/home/reza/development/conf-bank/DAP/script -I/home/reza/development/conf-bank/DAP/snark/libsnark -I/home/reza/development/conf-bank/DAP/snark/libsnark/common -I/home/reza/development/conf-bank/DAP/snark/gtest/googletest/include -I/home/reza/development/conf-bank/DAP/depends -I/home/reza/development/conf-bank/DAP/depends/snark -I/home/reza/development/conf-bank/DAP/depends/crypto 
 

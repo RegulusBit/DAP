@@ -247,6 +247,8 @@ uint256.h
 .././zcash/Zcash.h
 
 /home/reza/development/conf-bank/DAP/primitives/transaction.cpp
+tinyformat.h
+-
 primitives/transaction.h
 /home/reza/development/conf-bank/DAP/primitives/primitives/transaction.h
 hash.h

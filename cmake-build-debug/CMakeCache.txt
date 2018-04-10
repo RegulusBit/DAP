@@ -185,6 +185,9 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
+//Generate debug library name with a postfix.
+CMAKE_DEBUG_POSTFIX:STRING=d
+
 //Flags used by the linker.
 CMAKE_EXE_LINKER_FLAGS:STRING=
 
@@ -377,6 +380,9 @@ GITCOMMAND:FILEPATH=/usr/bin/git
 //Path to a library.
 GMPXX_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libgmpxx.so
 
+//The directory containing a CMake configuration file for GMP.
+GMP_DIR:PATH=GMP_DIR-NOTFOUND
+
 //Path to a file.
 GMP_INCLUDE_DIR:PATH=/usr/include/x86_64-linux-gnu
 
@@ -385,6 +391,9 @@ GMP_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libgmp.so
 
 //Path to a library.
 GMP_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libgmp.so
+
+//path 
+GMP_PREFIX:PATH=
 
 //Path to a program.
 HGCOMMAND:FILEPATH=HGCOMMAND-NOTFOUND
@@ -475,6 +484,9 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
+//The directory containing a CMake configuration file for Thread.
+Thread_DIR:PATH=Thread_DIR-NOTFOUND
+
 //Use architecture-specific optimized assembly code
 USE_ASM:BOOL=ON
 
@@ -518,34 +530,34 @@ dap_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP
 ff_LIB_DEPENDS:STATIC=general;GMP::gmp;general;procps;general;zm;
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/depends/libsnark/depends/gtest/googlemock
+gmock_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/libsnark/depends/gtest/googlemock
 
 //Dependencies for the target
-gmock_LIB_DEPENDS:STATIC=general;-pthread;
+gmock_LIB_DEPENDS:STATIC=general;-pthread;general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/depends/libsnark/depends/gtest/googlemock
+gmock_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/libsnark/depends/gtest/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
 
 //Dependencies for the target
-gmock_main_LIB_DEPENDS:STATIC=general;-pthread;
+gmock_main_LIB_DEPENDS:STATIC=general;-pthread;general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/depends/libsnark/depends/gtest
+googletest-distribution_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/libsnark/depends/gtest
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/depends/libsnark/depends/gtest
+googletest-distribution_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/libsnark/depends/gtest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/depends/libsnark/depends/gtest/googlemock/gtest
+gtest_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/libsnark/depends/gtest/googlemock/gtest
 
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;-pthread;
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/depends/libsnark/depends/gtest/googletest
+gtest_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/libsnark/depends/gtest/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -569,29 +581,32 @@ gtest_main_LIB_DEPENDS:STATIC=general;-pthread;general;gtest;
 //The directory containing a CMake configuration file for libbsoncxx.
 libbsoncxx_DIR:PATH=/usr/local/lib/cmake/libbsoncxx-3.1.2
 
-//Value Computed by CMake
-libff_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/depends/libsnark/depends/libff
+//Dependencies for target
+libcrypto_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-libff_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/depends/libsnark/depends/libff
+libff_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/libsnark/depends/libff
 
 //Value Computed by CMake
-libfqfft_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/depends/libsnark/depends/libfqfft
+libff_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/libsnark/depends/libff
 
 //Value Computed by CMake
-libfqfft_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/depends/libsnark/depends/libfqfft
+libfqfft_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/libsnark/depends/libfqfft
+
+//Value Computed by CMake
+libfqfft_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/libsnark/depends/libfqfft
 
 //The directory containing a CMake configuration file for libmongocxx.
 libmongocxx_DIR:PATH=/usr/local/lib/cmake/libmongocxx-3.1.2
 
 //Value Computed by CMake
-libsnark_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/depends/libsnark
+libsnark_BINARY_DIR:STATIC=/home/reza/development/conf-bank/DAP/cmake-build-debug/libsnark
 
-//Dependencies for target
-libsnark_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+libsnark_LIB_DEPENDS:STATIC=general;libgmp;general;procps;
 
 //Value Computed by CMake
-libsnark_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/depends/libsnark
+libsnark_SOURCE_DIR:STATIC=/home/reza/development/conf-bank/DAP/libsnark
 
 //Dependencies for target
 libzcash_LIB_DEPENDS:STATIC=
@@ -616,6 +631,9 @@ snark_supercop_LIB_DEPENDS:STATIC=general;crypto;
 
 //The directory containing a CMake configuration file for ssl.
 ssl_DIR:PATH=ssl_DIR-NOTFOUND
+
+//Dependencies for the target
+support_LIB_DEPENDS:STATIC=general;crypto;general;ssl;general;testlib;general;testlib2;general;ssl;general;crypto;
 
 //Dependencies for target
 zcash_LIB_DEPENDS:STATIC=
@@ -825,7 +843,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

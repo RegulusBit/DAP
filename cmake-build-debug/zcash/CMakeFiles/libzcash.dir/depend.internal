@@ -85,12 +85,6 @@ zcash/CMakeFiles/libzcash.dir/JoinSplit.cpp.o
  ../snark/libsnark/algebra/curves/curve_utils.hpp
  ../snark/libsnark/algebra/curves/curve_utils.tcc
  ../snark/libsnark/algebra/curves/public_params.hpp
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.hpp
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.tcc
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.hpp
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.tcc
- ../snark/libsnark/algebra/evaluation_domain/evaluation_domain.hpp
- ../snark/libsnark/algebra/evaluation_domain/evaluation_domain.tcc
  ../snark/libsnark/algebra/exponentiation/exponentiation.hpp
  ../snark/libsnark/algebra/exponentiation/exponentiation.tcc
  ../snark/libsnark/algebra/fields/bigint.hpp
@@ -106,14 +100,6 @@ zcash/CMakeFiles/libzcash.dir/JoinSplit.cpp.o
  ../snark/libsnark/algebra/fields/fp6_3over2.hpp
  ../snark/libsnark/algebra/fields/fp6_3over2.tcc
  ../snark/libsnark/algebra/fields/fp_aux.tcc
- ../snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.hpp
- ../snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.tcc
- ../snark/libsnark/algebra/scalar_multiplication/kc_multiexp.hpp
- ../snark/libsnark/algebra/scalar_multiplication/kc_multiexp.tcc
- ../snark/libsnark/algebra/scalar_multiplication/multiexp.hpp
- ../snark/libsnark/algebra/scalar_multiplication/multiexp.tcc
- ../snark/libsnark/algebra/scalar_multiplication/wnaf.hpp
- ../snark/libsnark/algebra/scalar_multiplication/wnaf.tcc
  ../snark/libsnark/common/assert_except.hpp
  ../snark/libsnark/common/data_structures/accumulation_vector.hpp
  ../snark/libsnark/common/data_structures/accumulation_vector.tcc
@@ -123,7 +109,6 @@ zcash/CMakeFiles/libzcash.dir/JoinSplit.cpp.o
  ../snark/libsnark/common/data_structures/sparse_vector.tcc
  ../snark/libsnark/common/default_types/ec_pp.hpp
  ../snark/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
- ../snark/libsnark/common/profiling.hpp
  ../snark/libsnark/common/serialization.hpp
  ../snark/libsnark/common/serialization.tcc
  ../snark/libsnark/common/utils.hpp
@@ -207,12 +192,6 @@ zcash/CMakeFiles/libzcash.dir/Proof.cpp.o
  ../snark/libsnark/algebra/curves/curve_utils.hpp
  ../snark/libsnark/algebra/curves/curve_utils.tcc
  ../snark/libsnark/algebra/curves/public_params.hpp
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.hpp
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain.tcc
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.hpp
- ../snark/libsnark/algebra/evaluation_domain/domains/basic_radix2_domain_aux.tcc
- ../snark/libsnark/algebra/evaluation_domain/evaluation_domain.hpp
- ../snark/libsnark/algebra/evaluation_domain/evaluation_domain.tcc
  ../snark/libsnark/algebra/exponentiation/exponentiation.hpp
  ../snark/libsnark/algebra/exponentiation/exponentiation.tcc
  ../snark/libsnark/algebra/fields/bigint.hpp
@@ -228,14 +207,6 @@ zcash/CMakeFiles/libzcash.dir/Proof.cpp.o
  ../snark/libsnark/algebra/fields/fp6_3over2.hpp
  ../snark/libsnark/algebra/fields/fp6_3over2.tcc
  ../snark/libsnark/algebra/fields/fp_aux.tcc
- ../snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.hpp
- ../snark/libsnark/algebra/knowledge_commitment/knowledge_commitment.tcc
- ../snark/libsnark/algebra/scalar_multiplication/kc_multiexp.hpp
- ../snark/libsnark/algebra/scalar_multiplication/kc_multiexp.tcc
- ../snark/libsnark/algebra/scalar_multiplication/multiexp.hpp
- ../snark/libsnark/algebra/scalar_multiplication/multiexp.tcc
- ../snark/libsnark/algebra/scalar_multiplication/wnaf.hpp
- ../snark/libsnark/algebra/scalar_multiplication/wnaf.tcc
  ../snark/libsnark/common/assert_except.hpp
  ../snark/libsnark/common/data_structures/accumulation_vector.hpp
  ../snark/libsnark/common/data_structures/accumulation_vector.tcc
@@ -243,7 +214,6 @@ zcash/CMakeFiles/libzcash.dir/Proof.cpp.o
  ../snark/libsnark/common/data_structures/sparse_vector.tcc
  ../snark/libsnark/common/default_types/ec_pp.hpp
  ../snark/libsnark/common/default_types/r1cs_ppzksnark_pp.hpp
- ../snark/libsnark/common/profiling.hpp
  ../snark/libsnark/common/serialization.hpp
  ../snark/libsnark/common/serialization.tcc
  ../snark/libsnark/common/utils.hpp

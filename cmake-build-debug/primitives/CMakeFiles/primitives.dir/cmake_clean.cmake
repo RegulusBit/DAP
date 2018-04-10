@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/primitives.dir/transaction.cpp.o"
-  "libprimitives.pdb"
-  "libprimitives.a"
+  "libprimitivesd.pdb"
+  "libprimitivesd.a"
 )
 
 # Per-language clean rules from dependency scanning.

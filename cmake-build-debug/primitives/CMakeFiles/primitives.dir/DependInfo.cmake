@@ -17,6 +17,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../primitives"
   "../script"
   "../snark/libsnark"
+  "../snark/libsnark/common"
+  "../snark/gtest/googletest/include"
   )
 
 # Targets to which this target links.

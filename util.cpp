@@ -191,26 +191,26 @@ static void DebugPrintInit()
     vMsgsBeforeOpenLog = new list<string>;
 }
 
-void OpenDebugLog()
-{
-    boost::call_once(&DebugPrintInit, debugPrintInitFlag);
-    boost::mutex::scoped_lock scoped_lock(*mutexDebugLog);
-
-    assert(fileout == NULL);
-    assert(vMsgsBeforeOpenLog);
-    boost::filesystem::path pathDebug = GetDataDir() / "debug.log";
-    fileout = fopen(pathDebug.string().c_str(), "a");
-    if (fileout) setbuf(fileout, NULL); // unbuffered
-
-    // dump buffered messages from before we opened the log
-    while (!vMsgsBeforeOpenLog->empty()) {
-        FileWriteStr(vMsgsBeforeOpenLog->front(), fileout);
-        vMsgsBeforeOpenLog->pop_front();
-    }
-
-    delete vMsgsBeforeOpenLog;
-    vMsgsBeforeOpenLog = NULL;
-}
+//void OpenDebugLog()
+//{
+//    boost::call_once(&DebugPrintInit, debugPrintInitFlag);
+//    boost::mutex::scoped_lock scoped_lock(*mutexDebugLog);
+//
+//    assert(fileout == NULL);
+//    assert(vMsgsBeforeOpenLog);
+//    boost::filesystem::path pathDebug = GetDataDir() / "debug.log";
+//    fileout = fopen(pathDebug.string().c_str(), "a");
+//    if (fileout) setbuf(fileout, NULL); // unbuffered
+//
+//    // dump buffered messages from before we opened the log
+//    while (!vMsgsBeforeOpenLog->empty()) {
+//        FileWriteStr(vMsgsBeforeOpenLog->front(), fileout);
+//        vMsgsBeforeOpenLog->pop_front();
+//    }
+//
+//    delete vMsgsBeforeOpenLog;
+//    vMsgsBeforeOpenLog = NULL;
+//}
 
 bool LogAcceptCategory(const char* category)
 {
@@ -265,45 +265,45 @@ static std::string LogTimestampStr(const std::string &str, bool *fStartedNewLine
 
     return strStamped;
 }
-
-int LogPrintStr(const std::string &str)
-{
-    int ret = 0; // Returns total number of characters written
-    static bool fStartedNewLine = true;
-    if (fPrintToConsole)
-    {
-        // print to console
-        ret = fwrite(str.data(), 1, str.size(), stdout);
-        fflush(stdout);
-    }
-    else if (fPrintToDebugLog)
-    {
-        boost::call_once(&DebugPrintInit, debugPrintInitFlag);
-        boost::mutex::scoped_lock scoped_lock(*mutexDebugLog);
-
-        string strTimestamped = LogTimestampStr(str, &fStartedNewLine);
-
-        // buffer if we haven't opened the log yet
-        if (fileout == NULL) {
-            assert(vMsgsBeforeOpenLog);
-            ret = strTimestamped.length();
-            vMsgsBeforeOpenLog->push_back(strTimestamped);
-        }
-        else
-        {
-            // reopen the log file, if requested
-            if (fReopenDebugLog) {
-                fReopenDebugLog = false;
-                boost::filesystem::path pathDebug = GetDataDir() / "debug.log";
-                if (freopen(pathDebug.string().c_str(),"a",fileout) != NULL)
-                    setbuf(fileout, NULL); // unbuffered
-            }
-
-            ret = FileWriteStr(strTimestamped, fileout);
-        }
-    }
-    return ret;
-}
+//
+//int LogPrintStr(const std::string &str)
+//{
+//    int ret = 0; // Returns total number of characters written
+//    static bool fStartedNewLine = true;
+//    if (fPrintToConsole)
+//    {
+//        // print to console
+//        ret = fwrite(str.data(), 1, str.size(), stdout);
+//        fflush(stdout);
+//    }
+//    else if (fPrintToDebugLog)
+//    {
+//        boost::call_once(&DebugPrintInit, debugPrintInitFlag);
+//        boost::mutex::scoped_lock scoped_lock(*mutexDebugLog);
+//
+//        string strTimestamped = LogTimestampStr(str, &fStartedNewLine);
+//
+//        // buffer if we haven't opened the log yet
+//        if (fileout == NULL) {
+//            assert(vMsgsBeforeOpenLog);
+//            ret = strTimestamped.length();
+//            vMsgsBeforeOpenLog->push_back(strTimestamped);
+//        }
+//        else
+//        {
+//            // reopen the log file, if requested
+//            if (fReopenDebugLog) {
+//                fReopenDebugLog = false;
+//                boost::filesystem::path pathDebug = GetDataDir() / "debug.log";
+//                if (freopen(pathDebug.string().c_str(),"a",fileout) != NULL)
+//                    setbuf(fileout, NULL); // unbuffered
+//            }
+//
+//            ret = FileWriteStr(strTimestamped, fileout);
+//        }
+//    }
+//    return ret;
+//}
 
 static void InterpretNegativeSetting(string name, map<string, string>& mapSettingsRet)
 {
@@ -579,59 +579,59 @@ void ClearDatadirCache()
     pathCached = boost::filesystem::path();
     pathCachedNetSpecific = boost::filesystem::path();
 }
-
-boost::filesystem::path GetConfigFile()
-{
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "zcash.conf"));
-    if (!pathConfigFile.is_complete())
-        pathConfigFile = GetDataDir(false) / pathConfigFile;
-
-    return pathConfigFile;
-}
-
-void ReadConfigFile(map<string, string>& mapSettingsRet,
-                    map<string, vector<string> >& mapMultiSettingsRet)
-{
-    boost::filesystem::ifstream streamConfig(GetConfigFile());
-    if (!streamConfig.good())
-        throw missing_zcash_conf();
-
-    set<string> setOptions;
-    setOptions.insert("*");
-
-    for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
-    {
-        // Don't overwrite existing settings so command line settings override zcash.conf
-        string strKey = string("-") + it->string_key;
-        if (mapSettingsRet.count(strKey) == 0)
-        {
-            mapSettingsRet[strKey] = it->value[0];
-            // interpret nofoo=1 as foo=0 (and nofoo=0 as foo=1) as long as foo not set)
-            InterpretNegativeSetting(strKey, mapSettingsRet);
-        }
-        mapMultiSettingsRet[strKey].push_back(it->value[0]);
-    }
-    // If datadir is changed in .conf file:
-    ClearDatadirCache();
-}
+//
+//boost::filesystem::path GetConfigFile()
+//{
+//    boost::filesystem::path pathConfigFile(GetArg("-conf", "zcash.conf"));
+//    if (!pathConfigFile.is_complete())
+//        pathConfigFile = GetDataDir(false) / pathConfigFile;
+//
+//    return pathConfigFile;
+//}
+//
+//void ReadConfigFile(map<string, string>& mapSettingsRet,
+//                    map<string, vector<string> >& mapMultiSettingsRet)
+//{
+//    boost::filesystem::ifstream streamConfig(GetConfigFile());
+//    if (!streamConfig.good())
+//        throw missing_zcash_conf();
+//
+//    set<string> setOptions;
+//    setOptions.insert("*");
+//
+//    for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
+//    {
+//        // Don't overwrite existing settings so command line settings override zcash.conf
+//        string strKey = string("-") + it->string_key;
+//        if (mapSettingsRet.count(strKey) == 0)
+//        {
+//            mapSettingsRet[strKey] = it->value[0];
+//            // interpret nofoo=1 as foo=0 (and nofoo=0 as foo=1) as long as foo not set)
+//            InterpretNegativeSetting(strKey, mapSettingsRet);
+//        }
+//        mapMultiSettingsRet[strKey].push_back(it->value[0]);
+//    }
+//    // If datadir is changed in .conf file:
+//    ClearDatadirCache();
+//}
 
 #ifndef WIN32
-boost::filesystem::path GetPidFile()
-{
-    boost::filesystem::path pathPidFile(GetArg("-pid", "zcashd.pid"));
-    if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
-    return pathPidFile;
-}
-
-void CreatePidFile(const boost::filesystem::path &path, pid_t pid)
-{
-    FILE* file = fopen(path.string().c_str(), "w");
-    if (file)
-    {
-        fprintf(file, "%d\n", pid);
-        fclose(file);
-    }
-}
+//boost::filesystem::path GetPidFile()
+//{
+//    boost::filesystem::path pathPidFile(GetArg("-pid", "zcashd.pid"));
+//    if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
+//    return pathPidFile;
+//}
+//
+//void CreatePidFile(const boost::filesystem::path &path, pid_t pid)
+//{
+//    FILE* file = fopen(path.string().c_str(), "w");
+//    if (file)
+//    {
+//        fprintf(file, "%d\n", pid);
+//        fclose(file);
+//    }
+//}
 #endif
 
 bool RenameOver(boost::filesystem::path src, boost::filesystem::path dest)
@@ -757,30 +757,30 @@ void AllocateFileRange(FILE *file, unsigned int offset, unsigned int length) {
     }
 #endif
 }
-
-void ShrinkDebugFile()
-{
-    // Scroll debug.log if it's getting too big
-    boost::filesystem::path pathLog = GetDataDir() / "debug.log";
-    FILE* file = fopen(pathLog.string().c_str(), "r");
-    if (file && boost::filesystem::file_size(pathLog) > 10 * 1000000)
-    {
-        // Restart the file with some of the end
-        std::vector <char> vch(200000,0);
-        fseek(file, -((long)vch.size()), SEEK_END);
-        int nBytes = fread(begin_ptr(vch), 1, vch.size(), file);
-        fclose(file);
-
-        file = fopen(pathLog.string().c_str(), "w");
-        if (file)
-        {
-            fwrite(begin_ptr(vch), 1, nBytes, file);
-            fclose(file);
-        }
-    }
-    else if (file != NULL)
-        fclose(file);
-}
+//
+//void ShrinkDebugFile()
+//{
+//    // Scroll debug.log if it's getting too big
+//    boost::filesystem::path pathLog = GetDataDir() / "debug.log";
+//    FILE* file = fopen(pathLog.string().c_str(), "r");
+//    if (file && boost::filesystem::file_size(pathLog) > 10 * 1000000)
+//    {
+//        // Restart the file with some of the end
+//        std::vector <char> vch(200000,0);
+//        fseek(file, -((long)vch.size()), SEEK_END);
+//        int nBytes = fread(begin_ptr(vch), 1, vch.size(), file);
+//        fclose(file);
+//
+//        file = fopen(pathLog.string().c_str(), "w");
+//        if (file)
+//        {
+//            fwrite(begin_ptr(vch), 1, nBytes, file);
+//            fclose(file);
+//        }
+//    }
+//    else if (file != NULL)
+//        fclose(file);
+//}
 
 #ifdef WIN32
 boost::filesystem::path GetSpecialFolderPath(int nFolder, bool fCreate)

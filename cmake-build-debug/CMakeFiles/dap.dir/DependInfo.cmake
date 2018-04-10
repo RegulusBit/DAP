@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/reza/development/conf-bank/DAP/random.cpp" "/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles/dap.dir/random.cpp.o"
   "/home/reza/development/conf-bank/DAP/sync.cpp" "/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles/dap.dir/sync.cpp.o"
   "/home/reza/development/conf-bank/DAP/uint256.cpp" "/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles/dap.dir/uint256.cpp.o"
+  "/home/reza/development/conf-bank/DAP/util.cpp" "/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles/dap.dir/util.cpp.o"
   "/home/reza/development/conf-bank/DAP/utilstrencodings.cpp" "/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles/dap.dir/utilstrencodings.cpp.o"
   "/home/reza/development/conf-bank/DAP/utiltime.cpp" "/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles/dap.dir/utiltime.cpp.o"
   )
@@ -25,12 +26,18 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../primitives"
   "../script"
   "../snark/libsnark"
+  "../snark/libsnark/common"
+  "../snark/gtest/googletest/include"
   "../depends"
-  "../depends/libsnark"
+  "../depends/snark"
+  "../depends/depends"
   "../depends/crypto"
   "../depends/support"
   "../depends/primitives"
   "../depends/script"
+  "../depends/libsnark"
+  "../snark/depends"
+  "../snark/depends/libff"
   )
 
 # Targets to which this target links.
@@ -38,7 +45,8 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/reza/development/conf-bank/DAP/cmake-build-debug/zcash/CMakeFiles/libzcash.dir/DependInfo.cmake"
   "/home/reza/development/conf-bank/DAP/cmake-build-debug/primitives/CMakeFiles/primitives.dir/DependInfo.cmake"
   "/home/reza/development/conf-bank/DAP/cmake-build-debug/script/CMakeFiles/script.dir/DependInfo.cmake"
-  "/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/CMakeFiles/libcrypto.dir/DependInfo.cmake"
+  "/home/reza/development/conf-bank/DAP/cmake-build-debug/support/CMakeFiles/support.dir/DependInfo.cmake"
   "/home/reza/development/conf-bank/DAP/cmake-build-debug/snark/CMakeFiles/libsnark.dir/DependInfo.cmake"
   )
 

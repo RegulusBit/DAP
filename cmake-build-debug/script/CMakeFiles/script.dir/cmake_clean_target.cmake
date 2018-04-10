@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libscript.a"
+  "libscriptd.a"
 )

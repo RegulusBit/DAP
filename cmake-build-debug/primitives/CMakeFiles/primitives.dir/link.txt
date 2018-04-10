@@ -1,2 +1,2 @@
-/usr/bin/ar qc libprimitives.a  CMakeFiles/primitives.dir/transaction.cpp.o
-/usr/bin/ranlib libprimitives.a
+/usr/bin/ar qc libprimitivesd.a  CMakeFiles/primitives.dir/transaction.cpp.o
+/usr/bin/ranlib libprimitivesd.a

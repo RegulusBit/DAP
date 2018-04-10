@@ -14,7 +14,8 @@
 #define R1CS_PPZKSNARK_PP_HPP_
 
 #define CURVE_ALT_BN128
-#include "libsnark/common/default_types/ec_pp.hpp"
+
+#include "common/default_types/ec_pp.hpp"
 
 namespace libsnark {
 typedef default_ec_pp default_r1cs_ppzksnark_pp;

@@ -3,11 +3,12 @@ add_library(libzcash Address.cpp CreateJoinSplit.cpp GenerateParams.cpp Incremen
                      circuit/utils.tcc circuit/merkle.tcc circuit/note.tcc Zcash.h)
 
 
+
 target_include_directories(
         libzcash
 
         PUBLIC
         ${DEPENDS_DIR}
-        ${DEPENDS_DIR}/libsnark
+        ${DEPENDS_DIR}/snark
         ${DEPENDS_DIR}/crypto
 )

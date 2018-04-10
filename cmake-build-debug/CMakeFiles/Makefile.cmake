@@ -40,9 +40,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.6/CMakeSystem.cmake"
   "../crypto/CMakeLists.txt"
+  "../modules/FindGMP.cmake"
+  "../modules/FindProcps.cmake"
   "../primitives/CMakeLists.txt"
   "../script/CMakeLists.txt"
   "../snark/CMakeLists.txt"
+  "../support/CMakeLists.txt"
   "../zcash/CMakeLists.txt"
   )
 
@@ -60,6 +63,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "script/CMakeFiles/CMakeDirectoryInformation.cmake"
   "crypto/CMakeFiles/CMakeDirectoryInformation.cmake"
   "snark/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "support/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -68,6 +72,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "zcash/CMakeFiles/libzcash.dir/DependInfo.cmake"
   "primitives/CMakeFiles/primitives.dir/DependInfo.cmake"
   "script/CMakeFiles/script.dir/DependInfo.cmake"
-  "crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "crypto/CMakeFiles/libcrypto.dir/DependInfo.cmake"
   "snark/CMakeFiles/libsnark.dir/DependInfo.cmake"
+  "support/CMakeFiles/support.dir/DependInfo.cmake"
   )

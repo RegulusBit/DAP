@@ -7,24 +7,30 @@ CMakeFiles/dap.dir/amount.cpp.o
  /home/reza/development/conf-bank/DAP/serialize.h
  /home/reza/development/conf-bank/DAP/tinyformat.h
 CMakeFiles/dap.dir/dap.cpp.o
- ../snark/libsnark/algebra/fields/bigint.hpp
- ../snark/libsnark/algebra/fields/bigint.tcc
- ../snark/libsnark/common/profiling.hpp
- ../snark/libsnark/common/serialization.hpp
- ../snark/libsnark/common/serialization.tcc
- ../snark/libsnark/common/utils.hpp
- ../snark/libsnark/common/utils.tcc
- ../snark/libsnark/gadgetlib1/gadget.hpp
- ../snark/libsnark/gadgetlib1/gadget.tcc
- ../snark/libsnark/gadgetlib1/pb_variable.hpp
- ../snark/libsnark/gadgetlib1/pb_variable.tcc
- ../snark/libsnark/gadgetlib1/protoboard.hpp
- ../snark/libsnark/gadgetlib1/protoboard.tcc
- ../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
- ../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc
- ../snark/libsnark/relations/variable.hpp
- ../snark/libsnark/relations/variable.tcc
+ .././amount.h
+ .././crypto/common.h
+ .././primitives/transaction.h
+ .././random.h
+ .././script/script.h
+ .././serialize.h
+ .././support/cleanse.h
+ .././uint252.h
+ .././uint256.h
+ .././zcash/NoteEncryption.hpp
+ .././zcash/Zcash.h
  /home/reza/development/conf-bank/DAP/dap.cpp
+ /home/reza/development/conf-bank/DAP/streams.h
+ /home/reza/development/conf-bank/DAP/support/allocators/zeroafterfree.h
+ /home/reza/development/conf-bank/DAP/tinyformat.h
+ /home/reza/development/conf-bank/DAP/util.h
+ /home/reza/development/conf-bank/DAP/utiltime.h
+ /home/reza/development/conf-bank/DAP/zcash/Address.hpp
+ /home/reza/development/conf-bank/DAP/zcash/IncrementalMerkleTree.hpp
+ /home/reza/development/conf-bank/DAP/zcash/JoinSplit.hpp
+ /home/reza/development/conf-bank/DAP/zcash/Note.hpp
+ /home/reza/development/conf-bank/DAP/zcash/NoteEncryption.hpp
+ /home/reza/development/conf-bank/DAP/zcash/Proof.hpp
+ /home/reza/development/conf-bank/DAP/zcash/Zcash.h
 CMakeFiles/dap.dir/hash.cpp.o
  .././crypto/sha512.h
  /home/reza/development/conf-bank/DAP/crypto/common.h
@@ -68,6 +74,17 @@ CMakeFiles/dap.dir/uint256.cpp.o
  /home/reza/development/conf-bank/DAP/uint256.cpp
  /home/reza/development/conf-bank/DAP/uint256.h
  /home/reza/development/conf-bank/DAP/utilstrencodings.h
+CMakeFiles/dap.dir/util.cpp.o
+ /home/reza/development/conf-bank/DAP/random.h
+ /home/reza/development/conf-bank/DAP/serialize.h
+ /home/reza/development/conf-bank/DAP/sync.h
+ /home/reza/development/conf-bank/DAP/threadsafety.h
+ /home/reza/development/conf-bank/DAP/tinyformat.h
+ /home/reza/development/conf-bank/DAP/uint256.h
+ /home/reza/development/conf-bank/DAP/util.cpp
+ /home/reza/development/conf-bank/DAP/util.h
+ /home/reza/development/conf-bank/DAP/utilstrencodings.h
+ /home/reza/development/conf-bank/DAP/utiltime.h
 CMakeFiles/dap.dir/utilstrencodings.cpp.o
  /home/reza/development/conf-bank/DAP/tinyformat.h
  /home/reza/development/conf-bank/DAP/utilstrencodings.cpp

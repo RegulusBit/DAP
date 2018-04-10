@@ -6,24 +6,30 @@ CMakeFiles/dap.dir/amount.cpp.o: ../amount.h
 CMakeFiles/dap.dir/amount.cpp.o: ../serialize.h
 CMakeFiles/dap.dir/amount.cpp.o: ../tinyformat.h
 
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/algebra/fields/bigint.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/algebra/fields/bigint.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/common/profiling.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/common/serialization.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/common/serialization.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/common/utils.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/common/utils.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/gadgetlib1/gadget.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/gadgetlib1/gadget.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/gadgetlib1/pb_variable.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/gadgetlib1/pb_variable.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/gadgetlib1/protoboard.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/gadgetlib1/protoboard.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.tcc
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/relations/variable.hpp
-CMakeFiles/dap.dir/dap.cpp.o: ../snark/libsnark/relations/variable.tcc
+CMakeFiles/dap.dir/dap.cpp.o: .././amount.h
+CMakeFiles/dap.dir/dap.cpp.o: .././crypto/common.h
+CMakeFiles/dap.dir/dap.cpp.o: .././primitives/transaction.h
+CMakeFiles/dap.dir/dap.cpp.o: .././random.h
+CMakeFiles/dap.dir/dap.cpp.o: .././script/script.h
+CMakeFiles/dap.dir/dap.cpp.o: .././serialize.h
+CMakeFiles/dap.dir/dap.cpp.o: .././support/cleanse.h
+CMakeFiles/dap.dir/dap.cpp.o: .././uint252.h
+CMakeFiles/dap.dir/dap.cpp.o: .././uint256.h
+CMakeFiles/dap.dir/dap.cpp.o: .././zcash/NoteEncryption.hpp
+CMakeFiles/dap.dir/dap.cpp.o: .././zcash/Zcash.h
 CMakeFiles/dap.dir/dap.cpp.o: ../dap.cpp
+CMakeFiles/dap.dir/dap.cpp.o: ../streams.h
+CMakeFiles/dap.dir/dap.cpp.o: ../support/allocators/zeroafterfree.h
+CMakeFiles/dap.dir/dap.cpp.o: ../tinyformat.h
+CMakeFiles/dap.dir/dap.cpp.o: ../util.h
+CMakeFiles/dap.dir/dap.cpp.o: ../utiltime.h
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/Address.hpp
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/IncrementalMerkleTree.hpp
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/JoinSplit.hpp
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/Note.hpp
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/NoteEncryption.hpp
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/Proof.hpp
+CMakeFiles/dap.dir/dap.cpp.o: ../zcash/Zcash.h
 
 CMakeFiles/dap.dir/hash.cpp.o: .././crypto/sha512.h
 CMakeFiles/dap.dir/hash.cpp.o: ../crypto/common.h
@@ -67,6 +73,17 @@ CMakeFiles/dap.dir/sync.cpp.o: ../utiltime.h
 CMakeFiles/dap.dir/uint256.cpp.o: ../uint256.cpp
 CMakeFiles/dap.dir/uint256.cpp.o: ../uint256.h
 CMakeFiles/dap.dir/uint256.cpp.o: ../utilstrencodings.h
+
+CMakeFiles/dap.dir/util.cpp.o: ../random.h
+CMakeFiles/dap.dir/util.cpp.o: ../serialize.h
+CMakeFiles/dap.dir/util.cpp.o: ../sync.h
+CMakeFiles/dap.dir/util.cpp.o: ../threadsafety.h
+CMakeFiles/dap.dir/util.cpp.o: ../tinyformat.h
+CMakeFiles/dap.dir/util.cpp.o: ../uint256.h
+CMakeFiles/dap.dir/util.cpp.o: ../util.cpp
+CMakeFiles/dap.dir/util.cpp.o: ../util.h
+CMakeFiles/dap.dir/util.cpp.o: ../utilstrencodings.h
+CMakeFiles/dap.dir/util.cpp.o: ../utiltime.h
 
 CMakeFiles/dap.dir/utilstrencodings.cpp.o: ../tinyformat.h
 CMakeFiles/dap.dir/utilstrencodings.cpp.o: ../utilstrencodings.cpp

@@ -63,14 +63,15 @@ CMAKE_BINARY_DIR = /home/reza/development/conf-bank/DAP/cmake-build-debug
 # Target rules for target CMakeFiles/dap.dir
 
 # All Build rule for target.
+CMakeFiles/dap.dir/all: zcash/CMakeFiles/libzcash.dir/all
 CMakeFiles/dap.dir/all: primitives/CMakeFiles/primitives.dir/all
 CMakeFiles/dap.dir/all: script/CMakeFiles/script.dir/all
-CMakeFiles/dap.dir/all: crypto/CMakeFiles/crypto.dir/all
+CMakeFiles/dap.dir/all: crypto/CMakeFiles/libcrypto.dir/all
 CMakeFiles/dap.dir/all: snark/CMakeFiles/libsnark.dir/all
-CMakeFiles/dap.dir/all: zcash/CMakeFiles/libzcash.dir/all
+CMakeFiles/dap.dir/all: support/CMakeFiles/support.dir/all
 	$(MAKE) -f CMakeFiles/dap.dir/build.make CMakeFiles/dap.dir/depend
 	$(MAKE) -f CMakeFiles/dap.dir/build.make CMakeFiles/dap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18 "Built target dap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target dap"
 .PHONY : CMakeFiles/dap.dir/all
 
 # Include target in all.
@@ -80,7 +81,7 @@ all: CMakeFiles/dap.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/dap.dir/rule
@@ -125,7 +126,7 @@ zcash/preinstall:
 zcash/CMakeFiles/libzcash.dir/all:
 	$(MAKE) -f zcash/CMakeFiles/libzcash.dir/build.make zcash/CMakeFiles/libzcash.dir/depend
 	$(MAKE) -f zcash/CMakeFiles/libzcash.dir/build.make zcash/CMakeFiles/libzcash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39 "Built target libzcash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47,48 "Built target libzcash"
 .PHONY : zcash/CMakeFiles/libzcash.dir/all
 
 # Include target in all.
@@ -180,7 +181,7 @@ primitives/preinstall:
 primitives/CMakeFiles/primitives.dir/all:
 	$(MAKE) -f primitives/CMakeFiles/primitives.dir/build.make primitives/CMakeFiles/primitives.dir/depend
 	$(MAKE) -f primitives/CMakeFiles/primitives.dir/build.make primitives/CMakeFiles/primitives.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target primitives"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target primitives"
 .PHONY : primitives/CMakeFiles/primitives.dir/all
 
 # Include target in all.
@@ -235,7 +236,7 @@ script/preinstall:
 script/CMakeFiles/script.dir/all:
 	$(MAKE) -f script/CMakeFiles/script.dir/build.make script/CMakeFiles/script.dir/depend
 	$(MAKE) -f script/CMakeFiles/script.dir/build.make script/CMakeFiles/script.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target script"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target script"
 .PHONY : script/CMakeFiles/script.dir/all
 
 # Include target in all.
@@ -269,12 +270,12 @@ clean: script/CMakeFiles/script.dir/clean
 # Directory level rules for directory crypto
 
 # Convenience name for "all" pass in the directory.
-crypto/all: crypto/CMakeFiles/crypto.dir/all
+crypto/all: crypto/CMakeFiles/libcrypto.dir/all
 
 .PHONY : crypto/all
 
 # Convenience name for "clean" pass in the directory.
-crypto/clean: crypto/CMakeFiles/crypto.dir/clean
+crypto/clean: crypto/CMakeFiles/libcrypto.dir/clean
 
 .PHONY : crypto/clean
 
@@ -284,39 +285,39 @@ crypto/preinstall:
 .PHONY : crypto/preinstall
 
 #=============================================================================
-# Target rules for target crypto/CMakeFiles/crypto.dir
+# Target rules for target crypto/CMakeFiles/libcrypto.dir
 
 # All Build rule for target.
-crypto/CMakeFiles/crypto.dir/all:
-	$(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/depend
-	$(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target crypto"
-.PHONY : crypto/CMakeFiles/crypto.dir/all
+crypto/CMakeFiles/libcrypto.dir/all:
+	$(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/depend
+	$(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Built target libcrypto"
+.PHONY : crypto/CMakeFiles/libcrypto.dir/all
 
 # Include target in all.
-all: crypto/CMakeFiles/crypto.dir/all
+all: crypto/CMakeFiles/libcrypto.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-crypto/CMakeFiles/crypto.dir/rule: cmake_check_build_system
+crypto/CMakeFiles/libcrypto.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 crypto/CMakeFiles/crypto.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 crypto/CMakeFiles/libcrypto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 0
-.PHONY : crypto/CMakeFiles/crypto.dir/rule
+.PHONY : crypto/CMakeFiles/libcrypto.dir/rule
 
 # Convenience name for target.
-crypto: crypto/CMakeFiles/crypto.dir/rule
+libcrypto: crypto/CMakeFiles/libcrypto.dir/rule
 
-.PHONY : crypto
-
-# clean rule for target.
-crypto/CMakeFiles/crypto.dir/clean:
-	$(MAKE) -f crypto/CMakeFiles/crypto.dir/build.make crypto/CMakeFiles/crypto.dir/clean
-.PHONY : crypto/CMakeFiles/crypto.dir/clean
+.PHONY : libcrypto
 
 # clean rule for target.
-clean: crypto/CMakeFiles/crypto.dir/clean
+crypto/CMakeFiles/libcrypto.dir/clean:
+	$(MAKE) -f crypto/CMakeFiles/libcrypto.dir/build.make crypto/CMakeFiles/libcrypto.dir/clean
+.PHONY : crypto/CMakeFiles/libcrypto.dir/clean
+
+# clean rule for target.
+clean: crypto/CMakeFiles/libcrypto.dir/clean
 
 .PHONY : clean
 
@@ -345,7 +346,7 @@ snark/preinstall:
 snark/CMakeFiles/libsnark.dir/all:
 	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/depend
 	$(MAKE) -f snark/CMakeFiles/libsnark.dir/build.make snark/CMakeFiles/libsnark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28 "Built target libsnark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target libsnark"
 .PHONY : snark/CMakeFiles/libsnark.dir/all
 
 # Include target in all.
@@ -355,7 +356,7 @@ all: snark/CMakeFiles/libsnark.dir/all
 
 # Build rule for subdir invocation for target.
 snark/CMakeFiles/libsnark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 snark/CMakeFiles/libsnark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 0
 .PHONY : snark/CMakeFiles/libsnark.dir/rule
@@ -372,6 +373,61 @@ snark/CMakeFiles/libsnark.dir/clean:
 
 # clean rule for target.
 clean: snark/CMakeFiles/libsnark.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory support
+
+# Convenience name for "all" pass in the directory.
+support/all: support/CMakeFiles/support.dir/all
+
+.PHONY : support/all
+
+# Convenience name for "clean" pass in the directory.
+support/clean: support/CMakeFiles/support.dir/clean
+
+.PHONY : support/clean
+
+# Convenience name for "preinstall" pass in the directory.
+support/preinstall:
+
+.PHONY : support/preinstall
+
+#=============================================================================
+# Target rules for target support/CMakeFiles/support.dir
+
+# All Build rule for target.
+support/CMakeFiles/support.dir/all:
+	$(MAKE) -f support/CMakeFiles/support.dir/build.make support/CMakeFiles/support.dir/depend
+	$(MAKE) -f support/CMakeFiles/support.dir/build.make support/CMakeFiles/support.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles --progress-num=53,54,55 "Built target support"
+.PHONY : support/CMakeFiles/support.dir/all
+
+# Include target in all.
+all: support/CMakeFiles/support.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+support/CMakeFiles/support.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 support/CMakeFiles/support.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/reza/development/conf-bank/DAP/cmake-build-debug/CMakeFiles 0
+.PHONY : support/CMakeFiles/support.dir/rule
+
+# Convenience name for target.
+support: support/CMakeFiles/support.dir/rule
+
+.PHONY : support
+
+# clean rule for target.
+support/CMakeFiles/support.dir/clean:
+	$(MAKE) -f support/CMakeFiles/support.dir/build.make support/CMakeFiles/support.dir/clean
+.PHONY : support/CMakeFiles/support.dir/clean
+
+# clean rule for target.
+clean: support/CMakeFiles/support.dir/clean
 
 .PHONY : clean
 

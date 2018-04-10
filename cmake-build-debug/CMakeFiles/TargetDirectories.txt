@@ -12,7 +12,10 @@
 /home/reza/development/conf-bank/DAP/cmake-build-debug/script/CMakeFiles/script.dir
 /home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/CMakeFiles/rebuild_cache.dir
 /home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/CMakeFiles/edit_cache.dir
-/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/CMakeFiles/crypto.dir
+/home/reza/development/conf-bank/DAP/cmake-build-debug/crypto/CMakeFiles/libcrypto.dir
 /home/reza/development/conf-bank/DAP/cmake-build-debug/snark/CMakeFiles/rebuild_cache.dir
 /home/reza/development/conf-bank/DAP/cmake-build-debug/snark/CMakeFiles/edit_cache.dir
 /home/reza/development/conf-bank/DAP/cmake-build-debug/snark/CMakeFiles/libsnark.dir
+/home/reza/development/conf-bank/DAP/cmake-build-debug/support/CMakeFiles/rebuild_cache.dir
+/home/reza/development/conf-bank/DAP/cmake-build-debug/support/CMakeFiles/edit_cache.dir
+/home/reza/development/conf-bank/DAP/cmake-build-debug/support/CMakeFiles/support.dir

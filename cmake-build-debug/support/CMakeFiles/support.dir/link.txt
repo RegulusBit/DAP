@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsupportd.a  CMakeFiles/support.dir/cleanse.cpp.o CMakeFiles/support.dir/pagelocker.cpp.o
+/usr/bin/ranlib libsupportd.a
