@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.o  -o profile_r1cs_gg_ppzksnark libsnark.a -lff -lGMP::gmp /usr/lib/x86_64-linux-gnu/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so ../../crypto/libcrypto.a -lprocps -lzm 

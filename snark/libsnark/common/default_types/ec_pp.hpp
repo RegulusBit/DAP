@@ -15,7 +15,8 @@
 
 /************************ Pick the elliptic curve ****************************/
 
-#define CURVE_ALT_BN128
+//TODO:
+#define CURVE_ALT_BN128 1
 
 #ifdef CURVE_ALT_BN128
 #include "algebra/curves/alt_bn128/alt_bn128_pp.hpp"

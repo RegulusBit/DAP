@@ -2,7 +2,7 @@ add_library(libzcash Address.cpp CreateJoinSplit.cpp GenerateParams.cpp Incremen
                      NoteEncryption.cpp prf.cpp Proof.cpp util.cpp circuit/commitment.tcc circuit/gadget.tcc circuit/prfs.tcc
                      circuit/utils.tcc circuit/merkle.tcc circuit/note.tcc Zcash.h)
 
-
+#set_target_properties(libzcash PROPERTIES LOWMEM 1)
 
 target_include_directories(
         libzcash

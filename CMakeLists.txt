@@ -25,6 +25,7 @@ add_subdirectory(zcash)
 add_subdirectory(primitives)
 add_subdirectory(script)
 add_subdirectory(crypto)
+add_subdirectory(consensus)
 
 #TODO
 add_subdirectory(snark)
@@ -38,6 +39,7 @@ find_package(GMP REQUIRED)
 find_package(Procps REQUIRED)
 
 pkg_search_module(OPENSSL REQUIRED openssl)
+pkg_check_modules(PROCPS REQUIRED libprocps)
 
 add_library(testlib SHARED IMPORTED)
 add_library(testlib2 SHARED IMPORTED)
@@ -53,10 +55,12 @@ set_property(TARGET libgmp PROPERTY IMPORTED_LOCATION "/usr/lib/x86_64-linux-gnu
 
 add_executable(dap dap.cpp serialize.h uint252.h uint256.cpp uint256.h streams.h hash.h hash.cpp version.h amount.cpp amount.h random.cpp random.h
                     tinyformat.h utilstrencodings.cpp utilstrencodings.h sync.cpp sync.h threadsafety.h utiltime.cpp utiltime.h pubkey.cpp pubkey.h
-                    util.h util.cpp)
+                    util.h util.cpp key.cpp key.h keystore.cpp keystore.h arith_uint256.cpp arith_uint256.h basic-config.h)
+
+#set_target_properties(dap PROPERTIES LOWMEM 1)
 
 target_link_libraries(dap PUBLIC libzcash primitives script libcrypto testlib testlib2 libgmp support libsnark ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT}
-                                ${OPENSSL_LIBRARIES} ${GMP_LIBRARY} ${PROCPS_LIBRARIES})
+                                 consensus ${OPENSSL_LIBRARIES} ${GMP_LIBRARY} ${PROCPS_LIBRARIES})
 
 target_include_directories(
         dap

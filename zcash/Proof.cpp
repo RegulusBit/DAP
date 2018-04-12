@@ -9,7 +9,6 @@
 
 using namespace libsnark;
 
-
 typedef alt_bn128_pp curve_pp;
 typedef alt_bn128_pp::G1_type curve_G1;
 typedef alt_bn128_pp::G2_type curve_G2;
