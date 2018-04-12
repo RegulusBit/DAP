@@ -41,6 +41,9 @@ find_package(JNI REQUIRED)
 
 pkg_search_module(OPENSSL REQUIRED openssl)
 
+#this line is required for linking to libprocps
+pkg_check_modules(PROCPS REQUIRED libprocps)
+
 add_library(testlib SHARED IMPORTED)
 add_library(testlib2 SHARED IMPORTED)
 add_library(libgmp SHARED IMPORTED)
