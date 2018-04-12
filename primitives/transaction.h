@@ -11,7 +11,7 @@
 #include "script/script.h"
 #include "serialize.h"
 #include "uint256.h"
-#include "consensus/consensus.h"
+//#include "consensus/consensus.h"
 
 #include <boost/array.hpp>
 

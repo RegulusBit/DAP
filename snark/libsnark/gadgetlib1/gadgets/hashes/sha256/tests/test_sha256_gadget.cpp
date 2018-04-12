@@ -11,6 +11,7 @@
 #include "gadgetlib1/gadgets/hashes/sha256/sha256_gadget.hpp"
 
 #include <gtest/gtest.h>
+#include <libsnark/common/default_types/ec_pp.hpp>
 
 using namespace libsnark;
 

@@ -37,9 +37,9 @@ find_package(Boost REQUIRED COMPONENTS filesystem system thread program_options)
 find_package(Threads)
 find_package(GMP REQUIRED)
 find_package(Procps REQUIRED)
+find_package(JNI REQUIRED)
 
 pkg_search_module(OPENSSL REQUIRED openssl)
-pkg_check_modules(PROCPS REQUIRED libprocps)
 
 add_library(testlib SHARED IMPORTED)
 add_library(testlib2 SHARED IMPORTED)
@@ -55,12 +55,10 @@ set_property(TARGET libgmp PROPERTY IMPORTED_LOCATION "/usr/lib/x86_64-linux-gnu
 
 add_executable(dap dap.cpp serialize.h uint252.h uint256.cpp uint256.h streams.h hash.h hash.cpp version.h amount.cpp amount.h random.cpp random.h
                     tinyformat.h utilstrencodings.cpp utilstrencodings.h sync.cpp sync.h threadsafety.h utiltime.cpp utiltime.h pubkey.cpp pubkey.h
-                    util.h util.cpp key.cpp key.h keystore.cpp keystore.h arith_uint256.cpp arith_uint256.h basic-config.h)
+                    util.h util.cpp key.h key.cpp keystore.cpp keystore.h arith_uint256.cpp arith_uint256.h basic-config.h)
 
-#set_target_properties(dap PROPERTIES LOWMEM 1)
-
-target_link_libraries(dap PUBLIC libzcash primitives script libcrypto testlib testlib2 libgmp support libsnark ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT}
-                                 consensus ${OPENSSL_LIBRARIES} ${GMP_LIBRARY} ${PROCPS_LIBRARIES})
+target_link_libraries(dap PUBLIC libzcash primitives script libcrypto testlib testlib2 libgmp support consensus libsnark ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT}
+                                    secp256k1 ${OPENSSL_LIBRARIES} ${GMP_LIBRARY} ${PROCPS_LIBRARIES} ${JNI_LIBRARIES})
 
 target_include_directories(
         dap
@@ -73,9 +71,11 @@ target_include_directories(
         ${DEPENDS_DIR}/depends
         ${DEPENDS_DIR}/crypto
         ${DEPENDS_DIR}/support
+        ${DEPENDS_DIR}/consensus
         ${DEPENDS_DIR}/primitives
         ${DEPENDS_DIR}/script
         ${PROCPS_INCLUDE_DIRS}
+        ${JNI_INCLUDE_DIRS}
 )
 
 #sudo apt-get install libsodium-dev

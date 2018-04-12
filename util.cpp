@@ -190,7 +190,7 @@ static void DebugPrintInit()
     mutexDebugLog = new boost::mutex();
     vMsgsBeforeOpenLog = new list<string>;
 }
-//
+
 //void OpenDebugLog()
 //{
 //    boost::call_once(&DebugPrintInit, debugPrintInitFlag);
@@ -265,7 +265,7 @@ static std::string LogTimestampStr(const std::string &str, bool *fStartedNewLine
 
     return strStamped;
 }
-
+//
 //int LogPrintStr(const std::string &str)
 //{
 //    int ret = 0; // Returns total number of characters written
@@ -320,46 +320,46 @@ static void InterpretNegativeSetting(string name, map<string, string>& mapSettin
     }
 }
 
-void ParseParameters(int argc, const char* const argv[])
-{
-    mapArgs.clear();
-    mapMultiArgs.clear();
-
-    for (int i = 1; i < argc; i++)
-    {
-        std::string str(argv[i]);
-        std::string strValue;
-        size_t is_index = str.find('=');
-        if (is_index != std::string::npos)
-        {
-            strValue = str.substr(is_index+1);
-            str = str.substr(0, is_index);
-        }
-#ifdef WIN32
-        boost::to_lower(str);
-        if (boost::algorithm::starts_with(str, "/"))
-            str = "-" + str.substr(1);
-#endif
-
-        if (str[0] != '-')
-            break;
-
-        // Interpret --foo as -foo.
-        // If both --foo and -foo are set, the last takes effect.
-        if (str.length() > 1 && str[1] == '-')
-            str = str.substr(1);
-
-        mapArgs[str] = strValue;
-        mapMultiArgs[str].push_back(strValue);
-    }
-
-    // New 0.6 features:
-    BOOST_FOREACH(const PAIRTYPE(string,string)& entry, mapArgs)
-    {
-        // interpret -nofoo as -foo=0 (and -nofoo=0 as -foo=1) as long as -foo not set
-        InterpretNegativeSetting(entry.first, mapArgs);
-    }
-}
+//void ParseParameters(int argc, const char* const argv[])
+//{
+//    mapArgs.clear();
+//    mapMultiArgs.clear();
+//
+//    for (int i = 1; i < argc; i++)
+//    {
+//        std::string str(argv[i]);
+//        std::string strValue;
+//        size_t is_index = str.find('=');
+//        if (is_index != std::string::npos)
+//        {
+//            strValue = str.substr(is_index+1);
+//            str = str.substr(0, is_index);
+//        }
+//#ifdef WIN32
+//        boost::to_lower(str);
+//        if (boost::algorithm::starts_with(str, "/"))
+//            str = "-" + str.substr(1);
+//#endif
+//
+//        if (str[0] != '-')
+//            break;
+//
+//        // Interpret --foo as -foo.
+//        // If both --foo and -foo are set, the last takes effect.
+//        if (str.length() > 1 && str[1] == '-')
+//            str = str.substr(1);
+//
+//        mapArgs[str] = strValue;
+//        mapMultiArgs[str].push_back(strValue);
+//    }
+//
+//    // New 0.6 features:
+//    BOOST_FOREACH(const PAIRTYPE(string,string)& entry, mapArgs)
+//    {
+//        // interpret -nofoo as -foo=0 (and -nofoo=0 as -foo=1) as long as -foo not set
+//        InterpretNegativeSetting(entry.first, mapArgs);
+//    }
+//}
 
 std::string GetArg(const std::string& strArg, const std::string& strDefault)
 {
@@ -416,30 +416,30 @@ std::string HelpMessageOpt(const std::string &option, const std::string &message
            FormatParagraph(message, screenWidth - msgIndent, msgIndent) +
            std::string("\n\n");
 }
-
-static std::string FormatException(const std::exception* pex, const char* pszThread)
-{
-#ifdef WIN32
-    char pszModule[MAX_PATH] = "";
-    GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
-#else
-    const char* pszModule = "Zcash";
-#endif
-    if (pex)
-        return strprintf(
-            "EXCEPTION: %s       \n%s       \n%s in %s       \n", typeid(*pex).name(), pex->what(), pszModule, pszThread);
-    else
-        return strprintf(
-            "UNKNOWN EXCEPTION       \n%s in %s       \n", pszModule, pszThread);
-}
-
-void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
-{
-    std::string message = FormatException(pex, pszThread);
-    LogPrintf("\n\n************************\n%s\n", message);
-    fprintf(stderr, "\n\n************************\n%s\n", message.c_str());
-    strMiscWarning = message;
-}
+//
+//static std::string FormatException(const std::exception* pex, const char* pszThread)
+//{
+//#ifdef WIN32
+//    char pszModule[MAX_PATH] = "";
+//    GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
+//#else
+//    const char* pszModule = "Zcash";
+//#endif
+//    if (pex)
+//        return strprintf(
+//            "EXCEPTION: %s       \n%s       \n%s in %s       \n", typeid(*pex).name(), pex->what(), pszModule, pszThread);
+//    else
+//        return strprintf(
+//            "UNKNOWN EXCEPTION       \n%s in %s       \n", pszModule, pszThread);
+//}
+//
+//void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
+//{
+//    std::string message = FormatException(pex, pszThread);
+//    LogPrintf("\n\n************************\n%s\n", message);
+//    fprintf(stderr, "\n\n************************\n%s\n", message.c_str());
+//    strMiscWarning = message;
+//}
 
 boost::filesystem::path GetDefaultDataDir()
 {
@@ -527,23 +527,23 @@ const boost::filesystem::path &ZC_GetParamsDir()
 // Return the user specified export directory.  Create directory if it doesn't exist.
 // If user did not set option, return an empty path.
 // If there is a filesystem problem, throw an exception.
-const boost::filesystem::path GetExportDir()
-{
-    namespace fs = boost::filesystem;
-    fs::path path;
-    if (mapArgs.count("-exportdir")) {
-        path = fs::system_complete(mapArgs["-exportdir"]);
-        if (fs::exists(path) && !fs::is_directory(path)) {
-            throw std::runtime_error(strprintf("The -exportdir '%s' already exists and is not a directory", path.string()));
-        }
-        if (!fs::exists(path) && !fs::create_directories(path)) {
-            throw std::runtime_error(strprintf("Failed to create directory at -exportdir '%s'", path.string()));
-        }
-    }
-    return path;
-}
+//const boost::filesystem::path GetExportDir()
+//{
+//    namespace fs = boost::filesystem;
+//    fs::path path;
+//    if (mapArgs.count("-exportdir")) {
+//        path = fs::system_complete(mapArgs["-exportdir"]);
+//        if (fs::exists(path) && !fs::is_directory(path)) {
+//            throw std::runtime_error(strprintf("The -exportdir '%s' already exists and is not a directory", path.string()));
+//        }
+//        if (!fs::exists(path) && !fs::create_directories(path)) {
+//            throw std::runtime_error(strprintf("Failed to create directory at -exportdir '%s'", path.string()));
+//        }
+//    }
+//    return path;
+//}
 
-//
+
 //const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 //{
 //    namespace fs = boost::filesystem;
@@ -614,8 +614,8 @@ void ClearDatadirCache()
 //    // If datadir is changed in .conf file:
 //    ClearDatadirCache();
 //}
-//
-//#ifndef WIN32
+
+#ifndef WIN32
 //boost::filesystem::path GetPidFile()
 //{
 //    boost::filesystem::path pathPidFile(GetArg("-pid", "zcashd.pid"));
@@ -632,7 +632,7 @@ void ClearDatadirCache()
 //        fclose(file);
 //    }
 //}
-//#endif
+#endif
 
 bool RenameOver(boost::filesystem::path src, boost::filesystem::path dest)
 {
